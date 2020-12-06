@@ -6,7 +6,9 @@ This web application is a big update to the [currently deployed personal website
 
 What's new:
 * New modern design
-* Better way to handle lengthy descriptions
+* Home page with summary and easy access to details
+* Reusable components to handle projects
+* Improved way to handle lengthy descriptions
 * Improved navigation
 * Using routing to render different "pages"
 * Animation
