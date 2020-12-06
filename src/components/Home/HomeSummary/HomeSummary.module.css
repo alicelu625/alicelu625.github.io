@@ -1,0 +1,84 @@
+.HomeSummary {
+    text-align: center;
+    background-color: rgba(200, 116, 122, 0.1);
+    background-image: linear-gradient(rgba(200, 116, 122, 0.1), white, rgba(200, 116, 122, 0.1));
+    height: 400px;
+}
+
+.IntroQuote {
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #525252;
+    margin: 0;
+    padding: 10px 15px;
+}
+
+.IntroSentences {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    color: #525252;
+    margin: 0;
+    padding: 5px 15px;
+}
+
+.MyInfo {
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px 20px;
+    text-align: left;
+}
+
+.MyInfoIntro {
+    font-size: 16px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.MyInfoLooking {
+    font-size: 16px;
+    color: #C8747A;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.MyInfoEmail {
+    font-size: 13px;
+    padding-left: 20px;
+    padding-top: 5px;
+    margin: 0;
+}
+
+.References {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+.Logos {
+    height: 36px;
+    padding-left: 8px;
+}
+
+.ReferenceText {
+    font-size: 12px;
+    margin: 0;
+}
+
+.LinkIcons {
+    font-size: 9px;
+}
+
+.LearnMoreText {
+    position: absolute;
+    right: 15px;
+    font-size: 16px;
+    color: #95585C;
+}
+
+.RightArrowIcon {
+    vertical-align: bottom;
+    padding-bottom: 1px;
+}

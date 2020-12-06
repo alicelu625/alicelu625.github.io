@@ -1,0 +1,22 @@
+.TopNavigation {
+    background-color: #95585C;
+    height: 72px;
+}
+
+.WebsiteLogo {
+    height: 48px;
+    position: absolute;
+    color: white;
+    left: 10px;
+    top: 15px;
+}
+
+.MenuIcon {
+    position: absolute;
+    color: white;
+    font-size: 43px;
+    border: 1px solid white;
+    border-radius: 5px;
+    right: 15px;
+    top: 15px;
+}
