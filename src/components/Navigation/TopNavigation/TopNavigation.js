@@ -8,7 +8,7 @@ const topNavigation = (props) => (
     <header>
         <div className={classes.TopNavigation}>
             <img className={classes.WebsiteLogo} src={WebsiteLogo} alt="Alice's website logo"/>
-            <FiMenu className={classes.MenuIcon}/>
+            <FiMenu className={classes.MenuIcon} onClick={props.drawerToggled}/>
         </div>
         
     </header>

@@ -1,7 +1,6 @@
 import React from 'react';
 import {FaLink} from 'react-icons/fa';
 import {FaPaperclip} from 'react-icons/fa';
-//import {MdKeyboardArrowRight} from 'react-icons/md';
 import {IoIosArrowForward} from 'react-icons/io';
 
 import Resume from '../../../assets/files/AliceLuResume.pdf';
@@ -47,8 +46,8 @@ const homeSummary = () => {
                 <p className={classes.MyInfoLooking}>Looking for opportunities!</p>
                 <p className={classes.MyInfoEmail}>Contact me: <a href="mailto:alicelu625@gmail.com">alicelu625@gmail.com</a></p>
                 <div className={classes.References}>
-                    {references.map(ref => (
-                        <a href={ref.refLink} key={ref.name}>
+                    {references.map((ref, i) => (
+                        <a href={ref.refLink} key={i}>
                         <img className={classes.Logos} src={ref.source} alt={ref.altText}/>
                         <p className={classes.ReferenceText}>
                             {ref.isDoc ? <FaPaperclip className={classes.LinkIcons}/> : <FaLink className={classes.LinkIcons}/>}

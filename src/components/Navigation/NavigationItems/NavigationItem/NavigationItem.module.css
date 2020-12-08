@@ -1,0 +1,20 @@
+.NavigationItem {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    background-color: #95585C;
+    color: white;
+    text-decoration: none;
+}
+
+.NavigationItem a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.NavigationItem a:hover,
+.NavigationItem a:active,
+.NavigationItem a.active {
+    text-decoration: underline;
+}

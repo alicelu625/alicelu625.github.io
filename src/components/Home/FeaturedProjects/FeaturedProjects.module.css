@@ -1,5 +1,7 @@
-.FeaturedSkills {
-    height: 250px;
+.FeaturedProjects {
+    text-align: center;
+    background-color: rgba(200, 116, 122, 0.1);
+    height: 400px;
 }
 
 .Title {
@@ -10,21 +12,6 @@
     margin-bottom: 0px;
     margin-top: 0px;
     padding-top: 15px;
-}
-
-.Logos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-left: 25px;
-    margin-right: 25px;
-}
-
-.Logo {
-    height: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
 }
 
 .LearnMoreText {

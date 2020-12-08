@@ -1,0 +1,21 @@
+.SideDrawer {
+    position: fixed;
+    width: 280px;
+    max-width: 70%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    z-index: 200; /*above backdrop*/
+    background-color: white;
+    padding: 32px 16px; /*32px top/bottom, 16px left/right*/
+    box-sizing: border-box;
+    transition: transform 0.3s ease-out; /*react to changes of transform propertt & animate 300ms with ease out timing*/
+}
+
+.Open {
+    transform: translateX(0); /*shift sidedrawer to position*/
+}
+
+.Close {
+    transform: translateX(200%); /*slide to left off screen*/
+}
