@@ -1,5 +1,8 @@
 .NavigationItems {
     display: flex;
     flex-flow: column;
-    align-items: center;
+    padding-left: 0px;
+    padding-right: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
 }

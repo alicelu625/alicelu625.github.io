@@ -1,4 +1,5 @@
 import React, {Fragment} from 'react';
+import {CgClose} from 'react-icons/cg';
 
 import NavigationItems from '../NavigationItems/NavigationItems';
 import Backdrop from '../../UI/Backdrop/Backdrop';
@@ -13,12 +14,11 @@ const sideDrawer = (props) => {
     return (
         <Fragment>
             <Backdrop show={props.open} backdropClicked={props.closed}/>
-            <div>
-                <div className={attachedClasses.join(' ')} onClick={props.closed}>
-                    <nav>
-                        <NavigationItems/>
-                    </nav>
-                </div>
+            <div className={attachedClasses.join(' ')}>
+                <CgClose className={classes.CloseIcon} onClick={props.closed}></CgClose>
+                <nav className={classes.NavItems}>
+                    <NavigationItems itemClicked={props.closed}/>
+                </nav>
             </div>
         </Fragment>
     )

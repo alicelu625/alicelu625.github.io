@@ -1,20 +1,25 @@
 .NavigationItem {
-    box-sizing: border-box;
     display: block;
-    width: 100%;
+    width: 90%;
     background-color: #95585C;
     color: white;
     text-decoration: none;
+    margin-top: 2px;
+    height: 60px;
+    line-height: 165%;
+    border-left: 15px solid #525252;
 }
 
 .NavigationItem a {
     color: white;
     text-decoration: none;
+    padding-left: 10px;
+    vertical-align: middle;
 }
 
 
-.NavigationItem a:hover,
-.NavigationItem a:active,
+.NavigationItem:hover,
+.NavigationItem:active,
 .NavigationItem a.active {
-    text-decoration: underline;
+    color: #525252;
 }
