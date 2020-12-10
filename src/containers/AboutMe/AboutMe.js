@@ -1,10 +1,12 @@
 import React, {Component, Fragment} from 'react';
 
+import Intro from '../../components/AboutMe/Intro/Intro';
+
 class AboutMe extends Component {
     render() {
         return (
             <Fragment>
-                <p>Hi</p>
+                <Intro/>
             </Fragment>
         );
     }

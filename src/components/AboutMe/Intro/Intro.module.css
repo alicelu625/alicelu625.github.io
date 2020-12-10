@@ -1,0 +1,20 @@
+.Pic {
+    display: block;
+    width: 65vw;
+    margin: 30px auto;
+}
+
+.InfoSection {
+    margin: 0 25px;
+}
+
+.Info {
+    font-family: 'Roboto', sans-serif;
+    color: #525252;
+}
+
+.Anchors {
+    display: flex;
+    justify-content: space-evenly;
+    color: #C8747A;
+}
