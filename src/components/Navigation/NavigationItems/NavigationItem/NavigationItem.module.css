@@ -7,19 +7,12 @@
     margin-top: 2px;
     height: 60px;
     line-height: 165%;
-    border-left: 15px solid #525252;
+    border-left: 10px solid #525252;
 }
-
-.NavigationItem a {
-    color: white;
-    text-decoration: none;
-    padding-left: 10px;
-    vertical-align: middle;
-}
-
 
 .NavigationItem:hover,
 .NavigationItem:active,
-.NavigationItem a.active {
+.NavigationItem.active {
+    background-color:rgba(200, 116, 122); 
     color: #525252;
 }

@@ -6,3 +6,8 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 32px;
 }
+
+.NavText {
+    padding-left: 10px;
+    vertical-align: middle;
+}
