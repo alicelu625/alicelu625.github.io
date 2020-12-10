@@ -1,10 +1,15 @@
 import React, {Component, Fragment} from 'react';
+import projectItems from '../../components/ProjectItems/ProjectItems';
+
+import classes from './Projects.module.css';
+import ProjectItems from '../../components/ProjectItems/ProjectItems';
 
 class Projects extends Component {
     render() {
         return (
             <Fragment>
-                <p>Projects page</p>
+                <h2 className={classes.Title}>Projects</h2>
+                <ProjectItems/>
             </Fragment>
         );
     }

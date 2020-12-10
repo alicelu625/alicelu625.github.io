@@ -1,7 +1,7 @@
 .FeaturedProjects {
     text-align: center;
     background-color: rgba(200, 116, 122, 0.1);
-    height: 400px;
+    height: 650px;
 }
 
 .Title {
@@ -26,4 +26,10 @@
 .RightArrowIcon {
     vertical-align: bottom;
     padding-bottom: 1px;
+}
+
+.ProjectItems {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
