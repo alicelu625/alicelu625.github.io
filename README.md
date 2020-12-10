@@ -1,6 +1,6 @@
 ## New - Alice's Personal Website (React)
 
-***This application is a work in progress.***
+***This application is a work in progress. Expected to launch: end of December 2020***
 
 This web application is a big update to the [currently deployed personal website](https://alicezlu.com/}), with new modern design and navigations to improve user interface and experience.
 
