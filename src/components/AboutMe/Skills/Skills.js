@@ -10,7 +10,7 @@ const skills = () => {
         },
         {
             title: 'I\'ve worked with',
-            content: 'React.js, Redux, Node.js, Express.js, Vue.js, RESTful APIs, PostgreSQL, Firebase (database & authentication), Jest/Enzyme (unit testing), Content Management Systems (CMS), Android Studios, Git'
+            content: 'React.js, Redux, Node.js, Express.js, Vue.js, RESTful APIs, PostgreSQL, Firebase (database & authentication), Jest/Enzyme (unit testing), Chrome Dev Tools/Redux Dev Tools (debugging), Git, Figma, Postman, Content Management Systems (CMS), Android Studios'
         },
         {
             title: 'Technical Skills',
