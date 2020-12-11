@@ -10,7 +10,7 @@ const intro = () => {
     ];
 
     return (
-        <div>
+        <div className={classes.Intro}>
             <img className={classes.Pic} src={MyPic} alt='Photo of Alice'/>
             <div className={classes.InfoSection}>
                 <p className={classes.Info}><strong>Name: </strong>Alice Lu</p>

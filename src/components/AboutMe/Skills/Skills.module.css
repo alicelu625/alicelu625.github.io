@@ -1,0 +1,19 @@
+.Skills {
+    background-color: rgba(200, 116, 122, 0.1);
+    font-family: 'Roboto', sans-serif;
+    color: #525252;
+    height: 62vh;
+}
+
+.Title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 15px;
+}
+
+.SkillsList {
+    margin: 0 25px;
+}
