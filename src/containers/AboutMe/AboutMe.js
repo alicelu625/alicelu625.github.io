@@ -2,6 +2,7 @@ import React, {Component, Fragment} from 'react';
 
 import Intro from '../../components/AboutMe/Intro/Intro';
 import Skills from '../../components/AboutMe/Skills/Skills';
+import Education from '../../components/AboutMe/Education/Education';
 
 class AboutMe extends Component {
     render() {
@@ -9,6 +10,7 @@ class AboutMe extends Component {
             <Fragment>
                 <Intro/>
                 <Skills/>
+                <Education/>
             </Fragment>
         );
     }

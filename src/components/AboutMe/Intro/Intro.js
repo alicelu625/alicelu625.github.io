@@ -11,12 +11,12 @@ const intro = () => {
 
     return (
         <div className={classes.Intro}>
-            <img className={classes.Pic} src={MyPic} alt='Photo of Alice'/>
+            <img className={classes.Pic} src={MyPic} alt='Alice'/>
             <div className={classes.InfoSection}>
                 <p className={classes.Info}><strong>Name: </strong>Alice Lu</p>
                 <p className={classes.Info}><strong>Location: </strong>San Francisco, CA</p>
-                {info.map(info => (
-                    <p className={classes.Info}><strong>{info.title}: </strong>
+                {info.map((info, i) => (
+                    <p className={classes.Info} key={i}><strong>{info.title}: </strong>
                     <br/>{info.content}</p>
                 ))}
             </div>

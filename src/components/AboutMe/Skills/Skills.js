@@ -26,8 +26,8 @@ const skills = () => {
         <div className={classes.Skills}>
             <h2 className={classes.Title}>Skills</h2>
             <div className={classes.SkillsList}>
-                {skillsList.map(skill => (
-                    <p><strong>{skill.title}:</strong><br/>{skill.content}</p>
+                {skillsList.map((skill, i) => (
+                    <p key={i}><strong>{skill.title}:</strong><br/>{skill.content}</p>
                 ))}
             </div>
         </div>
