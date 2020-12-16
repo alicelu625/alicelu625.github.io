@@ -1,8 +1,12 @@
+.Education {
+    height: 900px;
+}
+
 .Title {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     text-decoration: underline;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
     margin-top: 0px;
     padding-top: 15px;
     color: #525252;
