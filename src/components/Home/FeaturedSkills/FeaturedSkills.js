@@ -2,11 +2,11 @@ import React from 'react';
 import {IoIosArrowForward} from 'react-icons/io';
 
 import classes from './FeaturedSkills.module.css';
-import jsLogo from '../../../assets/images/js-logo.png';
-import cssLogo from '../../../assets/images/css-logo.png';
-import htmlLogo from '../../../assets/images/html-logo.png';
-import pythonLogo from '../../../assets/images/python-logo.png';
-import reactLogo from '../../../assets/images/react-logo.png';
+import jsLogo from '../../../assets/images/Home/js-logo.png';
+import cssLogo from '../../../assets/images/Home/css-logo.png';
+import htmlLogo from '../../../assets/images/Home/html-logo.png';
+import pythonLogo from '../../../assets/images/Home/python-logo.png';
+import reactLogo from '../../../assets/images/Home/react-logo.png';
 
 const featuredSkills = () => {
     const logos = [

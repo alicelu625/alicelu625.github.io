@@ -4,9 +4,9 @@ import {FaPaperclip} from 'react-icons/fa';
 import {IoIosArrowForward} from 'react-icons/io';
 
 import Resume from '../../../assets/files/AliceLuResume.pdf';
-import ResumeIcon from '../../../assets/images/resume-icon.png';
-import LinkedInLogo from '../../../assets/images/linkedin-logo.png';
-import GitHubLogo from '../../../assets/images/github-logo.png';
+import ResumeIcon from '../../../assets/images/Home/resume-icon.png';
+import LinkedInLogo from '../../../assets/images/Home/linkedin-logo.png';
+import GitHubLogo from '../../../assets/images/Home/github-logo.png';
 import classes from './HomeSummary.module.css';
 
 const homeSummary = () => {
