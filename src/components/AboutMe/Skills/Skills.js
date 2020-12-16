@@ -17,8 +17,8 @@ const skills = () => {
             content: 'Responsive Web Development, UX Design, Web Accessibility, Database Systems, Data Structures, Algorithms, Mobile Application Development, Computer Systems Design, Data Mining, Project Management'
         },
         {
-            title: 'Other Skills',
-            content: 'Problem Solving, Adaptibility, Teamwork, Leadership, Organization, Passionate, Communication, Priority Management, Creativity, Flexibility'
+            title: 'Other Skills/Traits',
+            content: 'Problem Solving, Adaptibility, Eager to Learn, Teamwork, Leadership, Organization, Passionate, Communication, Priority Management, Creativity, Flexibility'
         }
     ]
 

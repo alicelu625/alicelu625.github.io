@@ -2,7 +2,8 @@
     background-color: rgba(200, 116, 122, 0.1);
     font-family: 'Roboto', sans-serif;
     color: #525252;
-    height: 62vh;
+    height: 100%;
+    margin-bottom: 20px;
 }
 
 .Title {
