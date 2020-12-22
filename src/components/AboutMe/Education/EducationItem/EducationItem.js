@@ -22,7 +22,7 @@ class EducationItem extends Component {
         let details = (
             <div className={classes.DetailsDiv} onClick={this.onToggleShowDetails}>
                 <p className={classes.DetailsToggle}>
-                    See More <VscTriangleDown className={classes.ArrowIcon}/>
+                    Details <VscTriangleDown className={classes.ArrowIcon}/>
                 </p>
             </div>
         );
@@ -30,12 +30,13 @@ class EducationItem extends Component {
         if (this.state.showDetails) {
             details = (
                 <div className={classes.DetailsDiv} onClick={this.onToggleShowDetails}>
-                    <p className={classes.DetailsToggle}>
-                        Hide <VscTriangleUp className={classes.ArrowIcon}/>
-                    </p>
+                    
                     <div className={classes.DetailsContent}>
                         {this.props.content}
                     </div>
+                    <p className={classes.DetailsToggle}>
+                        Hide <VscTriangleUp className={classes.ArrowIcon}/>
+                    </p>
                 </div>
             );
         }
