@@ -7,8 +7,8 @@ import FCCLogo from '../../../assets/images/EducationLogos/fcc-logo.jpg';
 import UdemyLogo from '../../../assets/images/EducationLogos/udemy-logo.png';
 
 
-class Education extends Component {
-    items = [
+const education = () => {
+    const items = [
         {
             logo: UCSCLogo,
             altText: 'UC Santa Cruz Logo',
@@ -38,34 +38,23 @@ class Education extends Component {
         }
     ];
 
-    state = {
-        showDetails: false
-    }
-
-    onClickEducationItem = () => {
-        let prevState = this.state.showDetails;
-        this.setState({showDetails: !prevState});
-    }
-
-    render() {
-        return (
-            <div className={classes.Education} onClick={this.onClickEducationItem}>
-                <h2 className={classes.Title}>Education</h2>
-                {this.items.map((item, i) => (
-                    <EducationItem
-                        logo={item.logo}
-                        altText={item.altText}
-                        name={item.name}
-                        date={item.date}
-                        course={item.course}
-                        detail={item.detail}
-                        content={item.content}
-                        showDetails={this.state.showDetails}
-                    />
-                ))}
-            </div>
-        );
-    }
+    return (
+        <div className={classes.Education}>
+            <h2 className={classes.Title}>Education</h2>
+            {items.map((item, i) => (
+                <EducationItem
+                    key={i}    
+                    logo={item.logo}
+                    altText={item.altText}
+                    name={item.name}
+                    date={item.date}
+                    course={item.course}
+                    detail={item.detail}
+                    content={item.content}
+                />
+            ))}
+        </div>
+    );
 }
 
-export default Education;
+export default education;
