@@ -5,9 +5,6 @@ import {VscTriangleDown} from 'react-icons/vsc';
 import {VscTriangleUp} from 'react-icons/vsc';
 
 class EducationItem extends Component {
-    constructor(props) {
-        super(props);
-    }
 
     state = {
         showDetails: false
@@ -30,7 +27,6 @@ class EducationItem extends Component {
         if (this.state.showDetails) {
             details = (
                 <div className={classes.DetailsDiv} onClick={this.onToggleShowDetails}>
-                    
                     <div className={classes.DetailsContent}>
                         {this.props.content}
                     </div>
