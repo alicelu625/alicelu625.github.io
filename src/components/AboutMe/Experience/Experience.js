@@ -23,7 +23,7 @@ const experience = () => {
             altText: 'Digital Green Logo',
             name: 'Digital Green',
             title: 'Human Resource Coordinator/ Administrative Assistant',
-            date: '08/2019-04/2020, 11/2020-Present',
+            date: '08/2019-04/2020, 11/2020-Present (Contract)',
             content: 'I was given the opportunity to assist the Director of Global HR and Talent at Digital Green in their recruiting process when they were short-staffed and needed someone to support them remotely. I was mainly responsible for coordinating with multiple parties from 6 different time zones to schedule and set up interviews between the candidate and the internal interview teams via Google Calendar and Zoom. In order to keep candidates from different roles organized, I implemented my own candidate management tool to keep track of candidates\' interview stages and dates, which increased my efficiency by at least 25%. Aside from scheduling interviews, I also had the chance to assist different teams in projects such as data transition from Excel to a cloud-based management software, as well as tracking and managing essential files via Box and Google Drive. With this experience, I discovered and experimented different ways to keep organized and practiced to be detail oriented. I had demonstrated my abilities to juggle multiple tasks and projects as I was also pursuing my degree and working in another part-time role at UC Santa Cruz while keeping up with the responsibilities of this role.'
         },
         {
@@ -31,7 +31,7 @@ const experience = () => {
             altText: 'Gateway Learning Group Logo',
             name: 'Gateway Learning Group',
             title: 'Human Resource Administrative Assistant',
-            date: '08/2017 (Temp)',
+            date: '08/2017 (Contract Temp)',
             content: 'I had the chance to work at Gateway Learning Group in a 2 weeks temporary position to assist in payroll operations and employee onboarding. For payroll operations, I was responsible for inspecting and ensuring accuracy in timesheets using data analytical tool Tableau. I also assisted in the onboarding process by creating new employee profiles using Central Reach management software and managing employee records using Google Drive and Google Sheets. From this experience, I learned to use different softwares and performed data analysis.'
         },
         {
@@ -39,7 +39,7 @@ const experience = () => {
             altText: 'Canvas Logo',
             name: 'Canvas',
             title: 'Front Desk Coordinator/Office Manager',
-            date: '08/2017 (Temp)',
+            date: '08/2017 (Contract Temp)',
             content: 'I had the chance to work at Canvas in a 2 weeks temporary position to manage front desk and office operations. For front desk duties, I was responsible for greeting and directing guests to their destination after determining their purpose for visiting, managing mail, and communicating with staff through the office communication platform, Slack. As an office manager, I was responsible for organizing office functions, conference rooms, office supplies, and catered meals. This experience has introduced me to working in a fast paced technological and collaborative environment, the responsibilities of being the first line of communication for visitors, and preparing a well organized office environment for the employees.'
         },
         {

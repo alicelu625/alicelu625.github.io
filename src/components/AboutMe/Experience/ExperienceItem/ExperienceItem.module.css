@@ -8,7 +8,9 @@
 .ExperienceDiv {
     height: 100%;
     display: flex;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
+    padding: 15px 15px;
 }
 
 .LogoDiv {
@@ -16,10 +18,10 @@
     width: 75px;
     height: 75px;
     background-color: white;
-    margin: 15px 15px;
     text-align: center;
     border-radius: 10px;
     border: 0.1px  rgba(149, 88, 92, 0.5) solid;
+    margin-right: 15px;
 }
 
 .Logo {
@@ -34,11 +36,10 @@
 }
 
 .Header {
-    width: auto;
+    width: 70%;
     height: 80%;
     font-family: 'Roboto', sans-serif;
     color: #525252;
-    padding-right: 10px;
 }
 
 .Name {
