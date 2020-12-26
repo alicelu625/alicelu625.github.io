@@ -1,0 +1,84 @@
+.ExperienceItem {
+    border-radius: 10px;
+    background-color: white;
+    max-height: 100%;
+    margin: 20px 20px;
+}
+
+.ExperienceDiv {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.LogoDiv {
+    position: relative;
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    margin: 15px 15px;
+    text-align: center;
+    border-radius: 10px;
+    border: 0.1px  rgba(149, 88, 92, 0.5) solid;
+}
+
+.Logo {
+    position: absolute;
+    max-height: 75%;
+    max-width: 75%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.Header {
+    width: auto;
+    height: 80%;
+    font-family: 'Roboto', sans-serif;
+    color: #525252;
+    padding-right: 10px;
+}
+
+.Name {
+    margin: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.Title {
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.Date {
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.DetailsDiv {
+    border-top: 1px dotted #95585C;
+    height: 100%;
+}
+
+.DetailsToggle {
+    color: #95585C;
+    text-align: right;
+    margin: 0px 5px;
+    padding-bottom: 5px;
+}
+
+.ArrowIcon {
+    vertical-align: bottom;
+    padding-bottom: 1px;
+}
+
+.DetailsContent {
+    color: #525252;
+    font-size: 15px;
+    padding: 5px 15px;
+}

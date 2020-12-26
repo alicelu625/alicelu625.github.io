@@ -1,6 +1,7 @@
-.Education {
+.Experience {
     height: 100%;
-    padding-bottom: 10px;
+    background-color: rgba(200, 116, 122, 0.1);
+    padding-bottom: 20px;
 }
 
 .Title {
