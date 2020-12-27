@@ -49,10 +49,14 @@ const homeSummary = () => {
                     {references.map((ref, i) => (
                         <a href={ref.refLink} key={i}>
                         <img className={classes.Logos} src={ref.source} alt={ref.altText}/>
-                        <p className={classes.ReferenceText}>
-                            {ref.isDoc ? <FaPaperclip className={classes.LinkIcons}/> : <FaLink className={classes.LinkIcons}/>}
-                            Resume
-                        </p>
+                        {ref.isDoc
+                            ? <p className={classes.ReferenceText}>
+                                <FaPaperclip className={classes.LinkIcons}/>Resume
+                            </p>
+                            : <p className={classes.ReferenceText}>
+                                <FaLink className={classes.LinkIcons}/>{ref.name}
+                            </p>
+                        }
                     </a>
                     ))}
                 </div>
