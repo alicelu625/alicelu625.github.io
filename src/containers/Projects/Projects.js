@@ -1,5 +1,4 @@
 import React, {Component, Fragment} from 'react';
-import projectItems from '../../components/ProjectItems/ProjectItems';
 
 import classes from './Projects.module.css';
 import ProjectItems from '../../components/ProjectItems/ProjectItems';
