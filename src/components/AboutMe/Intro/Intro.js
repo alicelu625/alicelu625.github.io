@@ -1,4 +1,5 @@
 import React from 'react';
+import {HashLink} from 'react-router-hash-link';
 
 import classes from './Intro.module.css';
 import MyPic from '../../../assets/images/alice-picture.JPG';
@@ -14,16 +15,16 @@ const intro = () => {
             <img className={classes.Pic} src={MyPic} alt='Alice'/>
             <div className={classes.InfoSection}>
                 <p className={classes.Info}><strong>Name: </strong>Alice Lu</p>
-                <p className={classes.Info}><strong>Location: </strong>San Francisco, CA</p>
+                <p className={classes.Info}><strong>Location: </strong>San Francisco Bay Area, CA</p>
                 {info.map((info, i) => (
                     <p className={classes.Info} key={i}><strong>{info.title}: </strong>
                     <br/>{info.content}</p>
                 ))}
             </div>
             <div className={classes.Anchors}>
-                <a>Skills</a>
-                <a>Education</a>
-                <a>Experience</a>
+                <HashLink smooth className={classes.AnchorLink} to="/aboutme#education">Education</HashLink>
+                <HashLink smooth className={classes.AnchorLink} to="/aboutme#skills">Skills</HashLink>
+                <HashLink smooth className={classes.AnchorLink} to="/aboutme#experience">Experience</HashLink>
             </div>
         </div>
     );

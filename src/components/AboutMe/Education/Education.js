@@ -36,7 +36,7 @@ const education = () => {
     ];
 
     return (
-        <div className={classes.Education}>
+        <div id="education" className={classes.Education}>
             <h2 className={classes.Title}>Education</h2>
             {items.map((item, i) => (
                 <EducationItem

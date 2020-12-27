@@ -23,7 +23,7 @@ const skills = () => {
     ]
 
     return (
-        <div className={classes.Skills}>
+        <div id="skills" className={classes.Skills}>
             <h2 className={classes.Title}>Skills</h2>
             <div className={classes.SkillsList}>
                 {skillsList.map((skill, i) => (

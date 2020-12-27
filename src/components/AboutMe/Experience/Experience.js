@@ -53,7 +53,7 @@ const experience = () => {
     ]
 
     return (
-        <div className={classes.Experience}>
+        <div id="experience" className={classes.Experience}>
             <h2 className={classes.Title}>Experience</h2>
             {items.map((item, i) => (
                 <ExperienceItem
