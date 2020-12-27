@@ -21,6 +21,7 @@ class Modal extends Component {
                     }}
                 >
                     {this.props.children}
+                    <button className={classes.CloseButton} onClick={this.props.modalClosed}>Close</button>
                 </div>
             </Fragment>
         );
