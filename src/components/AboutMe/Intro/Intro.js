@@ -6,8 +6,14 @@ import MyPic from '../../../assets/images/alice-picture.JPG';
 
 const intro = () => {
     const info = [
-        {title: 'About me', content: 'I\'m a recent graduate at the University of California: Santa Cruz, where I discovered my passion for software/web development. I enjoy learning new tools and concepts to improve user experience. It is one of my goals to build products that will help simplify ways for people to complete tasks, communicate with each other, access information, etc.'},
-        {title: 'When I\'m not coding, I like to', content: 'Exercise, discover new Apps, motivate others, family/friends time'}
+        {
+            title: 'About me',
+            content: 'I\'m a recent graduate at the University of California: Santa Cruz, where I discovered my passion for software/web development. I enjoy learning new tools and concepts to improve user experience. It is one of my goals to build products that will help simplify ways for people to complete tasks, communicate with each other, access information, etc.'
+        },
+        {
+            title: 'When I\'m not coding, I like to',
+            content: 'Exercise, discover new Apps, motivate others, family/friends time'
+        }
     ];
 
     return (
