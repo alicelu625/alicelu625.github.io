@@ -1,5 +1,6 @@
 import React from 'react';
 import {IoIosArrowForward} from 'react-icons/io';
+import {HashLink} from 'react-router-hash-link';
 
 import classes from './FeaturedSkills.module.css';
 import jsLogo from '../../../assets/images/Home/js-logo.png';
@@ -24,7 +25,7 @@ const featuredSkills = () => {
                     <img key={i} className={classes.Logo} src={logo.source} alt={logo.altText}/>
                 ))}
             </div>
-            <span className={classes.LearnMoreText}>View all skills<IoIosArrowForward className={classes.RightArrowIcon}/></span>
+            <HashLink className={classes.LearnMoreText} to="/aboutme#skills">View all skills<IoIosArrowForward className={classes.RightArrowIcon}/></HashLink>
         </div>
     );
 }

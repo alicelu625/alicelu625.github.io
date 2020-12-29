@@ -76,7 +76,7 @@ class FeaturedProjects extends Component {
                         projectClicked={this.openModalHandler}
                     />
                 </div>
-                <span className={classes.LearnMoreText}>View all projects<IoIosArrowForward className={classes.RightArrowIcon}/></span>
+                <a className={classes.LearnMoreText} href="/projects">View all projects<IoIosArrowForward className={classes.RightArrowIcon}/></a>
             </div>
         );
     }

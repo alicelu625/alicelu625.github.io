@@ -7,7 +7,9 @@ import WebsiteLogo from '../../../assets/images/website-logo.png';
 const topNavigation = (props) => (
     <header>
         <div className={classes.TopNavigation}>
-            <img className={classes.WebsiteLogo} src={WebsiteLogo} alt="Alice's website logo"/>
+            <a href="/">
+                <img className={classes.WebsiteLogo} src={WebsiteLogo} alt="Alice's website logo"/>
+            </a>
             <FiMenu className={classes.MenuIcon} onClick={props.drawerToggled}/>
         </div>
         

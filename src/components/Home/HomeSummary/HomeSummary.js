@@ -61,7 +61,7 @@ const homeSummary = () => {
                     ))}
                 </div>
             </div>
-            <span className={classes.LearnMoreText}>Learn more<IoIosArrowForward className={classes.RightArrowIcon}/></span>
+            <a className={classes.LearnMoreText} href="/aboutme">Learn more<IoIosArrowForward className={classes.RightArrowIcon}/></a>
         </div>
     );
 }

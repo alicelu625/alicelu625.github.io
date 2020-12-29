@@ -1,6 +1,10 @@
 .TopNavigation {
     background-color: #95585C;
     height: 72px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s;
 }
 
 .WebsiteLogo {
