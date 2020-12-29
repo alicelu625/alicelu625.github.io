@@ -64,15 +64,15 @@ class FeaturedProjects extends Component {
                         projectClicked={this.openModalHandler}
                     />
                     <ProjectItem  
-                        cover={items[2].cover}
-                        altText={items[2].altText}
-                        name={items[2].name}
-                        date={items[2].date}
-                        demo={items[2].demo}
-                        srcCode={items[2].srcCode}
-                        description={items[2].description}
-                        tools={items[2].tools}
-                        id={2}
+                        cover={items[1].cover}
+                        altText={items[1].altText}
+                        name={items[1].name}
+                        date={items[1].date}
+                        demo={items[1].demo}
+                        srcCode={items[1].srcCode}
+                        description={items[1].description}
+                        tools={items[1].tools}
+                        id={1}
                         projectClicked={this.openModalHandler}
                     />
                 </div>
