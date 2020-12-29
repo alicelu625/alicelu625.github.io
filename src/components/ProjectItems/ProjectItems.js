@@ -29,7 +29,7 @@ class ProjectItems extends Component {
             let item = items[this.state.itemId];
             modalContent = (
                 <div className={classes.Modal}>
-                    <h3 className={classes.Title}>{item.name}</h3>
+                    <h3 className={classes.Name}>{item.name}</h3>
                     <p className={classes.Date}>{item.date}</p>
                     <div className={classes.ButtonDiv}>
                         <a href={item.demo}>
