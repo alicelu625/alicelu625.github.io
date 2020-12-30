@@ -25,7 +25,7 @@ const featuredSkills = () => {
                     <img key={i} className={classes.Logo} src={logo.source} alt={logo.altText}/>
                 ))}
             </div>
-            <HashLink className={classes.LearnMoreText} to="/aboutme#skills">View all skills<IoIosArrowForward className={classes.RightArrowIcon}/></HashLink>
+            <HashLink className={classes.LearnMoreText} to="/aboutme#skills">View All Skills<IoIosArrowForward className={classes.RightArrowIcon}/></HashLink>
         </div>
     );
 }

@@ -2,7 +2,7 @@
     text-align: center;
     background-color: rgba(200, 116, 122, 0.1);
     background-image: linear-gradient(rgba(200, 116, 122, 0.1), white, rgba(200, 116, 122, 0.1));
-    height: 400px;
+    height: 100%;
     margin-top: 72px;
 }
 
@@ -70,17 +70,21 @@
 
 .LinkIcons {
     font-size: 9px;
+    
 }
 
 .LearnMoreText {
-    position: absolute;
-    right: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
     font-size: 16px;
     color: #95585C;
     text-decoration: underline;
+    padding-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 .RightArrowIcon {
     vertical-align: bottom;
-    padding-bottom: 1px;
 }
