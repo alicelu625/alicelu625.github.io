@@ -21,6 +21,14 @@
     margin-top: 0;
 }
 
+.InProgress {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 0;
+    color: #C8747A;
+    font-weight: bold;
+}
+
 .ButtonDiv {
     display: flex;
     justify-content: space-around;

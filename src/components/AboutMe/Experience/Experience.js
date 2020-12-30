@@ -17,6 +17,8 @@ const experience = () => {
                     date={item.date}
                     title={item.title}
                     content={item.content}
+                    location={item.location}
+                    link={item.link}
                 />
             ))}
         </div>

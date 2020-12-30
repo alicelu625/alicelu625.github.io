@@ -28,7 +28,7 @@ class ProjectItems extends Component {
         if (this.state.itemId !== undefined) {
             let item = items[this.state.itemId];
 
-            if (item.srcCode !== undefined) {
+            if (item.srcCode !== null) {
                 modalContent = (
                     <div className={classes.Modal}>
                         <h3 className={classes.Name}>{item.name}</h3>
@@ -50,6 +50,7 @@ class ProjectItems extends Component {
                     <div className={classes.Modal}>
                         <h3 className={classes.Name}>{item.name}</h3>
                         <p className={classes.Date}>{item.date}</p>
+                        <p className={classes.InProgress}>Project in progress.</p>
                         <p className={classes.Content}><strong>Description: </strong>{item.description}</p>
                         <p className={classes.Content}><strong>Current Progress: </strong>{item.tools}</p>
                     </div>

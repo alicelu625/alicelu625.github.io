@@ -3,6 +3,8 @@ import React, {Component} from 'react';
 import classes from './ExperienceItem.module.css';
 import {VscTriangleDown} from 'react-icons/vsc';
 import {VscTriangleUp} from 'react-icons/vsc';
+import {ImLocation} from 'react-icons/im';
+import {FaLink} from 'react-icons/fa';
 
 class ExperienceItem extends Component {
     state = {
@@ -26,6 +28,8 @@ class ExperienceItem extends Component {
         if (this.state.showDetails) {
             details = (
                 <div className={classes.DetailsDiv} onClick={this.onToggleShowDetails}>
+                    <p className={classes.Location}><ImLocation/> {this.props.location}</p>
+                    <a className={classes.Link} href={this.props.link}><FaLink/> {this.props.link}</a>
                     <div className={classes.DetailsContent}>
                         {this.props.content}
                     </div>

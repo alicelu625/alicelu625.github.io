@@ -9,7 +9,7 @@ export const items = [
         name: 'University of California, Santa Cruz',
         date: 'September 2016 - June 2020',
         course: 'Bachelor - Computer Science',
-        content: 'At UC Santa Cruz, I developed foundational skills in computer science such as data structures, algorithms, and computer systems design. Through elective courses, I discovered my passion for web development, which gave me the push to begin pursuing a career in front-end/full stack web development and develop more skills post-college.'
+        content: 'At UC Santa Cruz, I developed foundational skills in computer science such as data structures, algorithms, and computer systems design. Among the elective courses I took (mobile application development, web development, database systems, etc.), I discovered my passion for web development, which gave me the push to begin pursuing a career in front-end/full stack web development and developing more skills post-college.'
     },
     {
         logo: FCCLogo,
@@ -25,6 +25,6 @@ export const items = [
         name: 'Udemy',
         date: 'September 2020 - November 2020',
         course: 'React - The Complete Guide',
-        content: 'I decided to learn my first web framework, React, through Udemy. This course covered React concepts and features, including Hooks, React Router, and Redux. I was able to practice with hands-on course projects as well as personal projects.'
+        content: 'I had discovered that React is a very popular JavaScript library that is listed as a qualification for my role. Since I’ve never used React nor know how to use it, I enrolled myself in Udemy’s React course, where I learned about React through follow along coding practices and hands-on projects. Along with the course, I’ve put my newly learned skills to practice by building personal projects, such as this website.'
     }
 ];
