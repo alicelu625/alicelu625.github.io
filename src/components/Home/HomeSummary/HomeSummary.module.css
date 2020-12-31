@@ -3,7 +3,9 @@
     background-color: rgba(200, 116, 122, 0.1);
     background-image: linear-gradient(rgba(200, 116, 122, 0.1), white, rgba(200, 116, 122, 0.1));
     height: 100%;
-    margin-top: 72px;
+    margin-top: 56px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .IntroQuote {
@@ -12,7 +14,7 @@
     font-family: 'Source Sans Pro', sans-serif;
     color: #525252;
     margin: 0;
-    padding: 10px 15px;
+    padding: 10px 0px;
 }
 
 .IntroSentences {
@@ -20,13 +22,13 @@
     font-family: 'Roboto', sans-serif;
     color: #525252;
     margin: 0;
-    padding: 5px 15px;
+    padding: 5px 0px;
 }
 
 .MyInfo {
     background-color: white;
     border-radius: 20px;
-    margin: 10px 20px;
+    margin: 10px 5px;
     text-align: left;
 }
 
@@ -70,7 +72,6 @@
 
 .LinkIcons {
     font-size: 9px;
-    
 }
 
 .LearnMoreText {
@@ -80,11 +81,66 @@
     font-size: 16px;
     color: #95585C;
     text-decoration: underline;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    padding-top: 5px;
 }
 
 .RightArrowIcon {
     vertical-align: bottom;
+}
+
+/*medium screens (Ex. tablets)*/
+@media (min-width: 768px) {
+    .IntroQuote {
+        font-size: 35px;
+        padding: 40px 20px;
+    }
+    
+    .IntroSentences {
+        font-size: 16px;
+        padding: 5px 15px;
+    }
+
+    .MyInfo {
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        margin-top: 35px;
+    }
+
+    .MyInfoIntro {
+        font-size: 18px;
+        padding-left: 25px;
+    }
+
+    .MyInfoLooking {
+        font-size: 18px;
+        padding-left: 25px;
+    }
+    
+    .MyInfoEmail {
+        font-size: 15px;
+        padding-left: 25px;
+    }
+
+    .Logos {
+        height: 40px;
+        padding-left: 10px;
+    }
+    
+    .ReferenceText {
+        font-size: 14px;
+    }
+
+    .LinkIcons {
+        font-size: 10px;
+    }
+
+    .LearnMoreText {
+        padding-bottom: 20px;
+        padding-top: 8px;
+        padding-right: 70px;
+    }
 }

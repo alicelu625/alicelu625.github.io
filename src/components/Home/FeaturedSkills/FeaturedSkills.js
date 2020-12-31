@@ -10,18 +10,27 @@ import pythonLogo from '../../../assets/images/Home/python-logo.png';
 import reactLogo from '../../../assets/images/Home/react-logo.png';
 
 const featuredSkills = () => {
-    const logos = [
+    const logosRow1 = [
         {source: jsLogo, altText: 'JavaScript Logo'},
         {source: cssLogo, altText: 'CSS Logo'},
         {source: htmlLogo, altText: 'HTML Logo'},
+    ];
+
+    const logosRow2 = [
         {source: pythonLogo, altText: 'Python Logo'},
         {source: reactLogo, altText: 'React Logo'}
     ];
+
     return (
         <div className={classes.FeaturedSkills}>
             <h2 className={classes.Title}>Featured Skills</h2>
-            <div className={classes.Logos}>
-                {logos.map((logo, i) => (
+            <div className={classes.LogosRow1}>
+                {logosRow1.map((logo, i) => (
+                    <img key={i} className={classes.Logo} src={logo.source} alt={logo.altText}/>
+                ))}
+            </div>
+            <div className={classes.LogosRow2}>
+                {logosRow2.map((logo, i) => (
                     <img key={i} className={classes.Logo} src={logo.source} alt={logo.altText}/>
                 ))}
             </div>

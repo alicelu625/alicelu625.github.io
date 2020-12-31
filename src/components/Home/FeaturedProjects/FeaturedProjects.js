@@ -63,7 +63,7 @@ class FeaturedProjects extends Component {
                         id={0}
                         projectClicked={this.openModalHandler}
                     />
-                    <ProjectItem  
+                    <ProjectItem 
                         cover={items[1].cover}
                         altText={items[1].altText}
                         name={items[1].name}
