@@ -1,7 +1,11 @@
 .ProjectItems {
     display: flex;
     justify-content: center;
+    align-items: space-evenly;
     flex-wrap: wrap;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .Modal {
@@ -51,4 +55,13 @@
 
 .Content {
     font-size: 15px;
+}
+
+/*medium screens (Ex. tablets)*/
+@media (min-width: 768px) {
+    .ButtonDiv {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

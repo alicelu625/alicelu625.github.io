@@ -1,7 +1,7 @@
 .Experience {
     height: 100%;
     background-color: rgba(200, 116, 122, 0.1);
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .Title {
@@ -12,4 +12,14 @@
     margin-top: 0px;
     padding-top: 15px;
     color: #525252;
+}
+
+/*medium screens (Ex. tablets)*/
+@media (min-width: 768px) {
+    .ExperienceItems {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+    }
 }

@@ -3,7 +3,8 @@
     font-family: 'Roboto', sans-serif;
     color: #525252;
     height: 100%;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 .Title {
@@ -12,9 +13,18 @@
     text-decoration: underline;
     margin-bottom: 0px;
     margin-top: 0px;
-    padding-top: 15px;
 }
 
 .SkillsList {
     margin: 0 25px;
+}
+
+/*medium screens (Ex. tablets)*/
+@media (min-width: 768px) {
+    .SkillsList {
+        display: block;
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
