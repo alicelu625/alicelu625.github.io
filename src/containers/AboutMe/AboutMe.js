@@ -6,6 +6,10 @@ import Education from '../../components/AboutMe/Education/Education';
 import Experience from '../../components/AboutMe/Experience/Experience';
 
 class AboutMe extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+    
     render() {
         return (
             <Fragment>
