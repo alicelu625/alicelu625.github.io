@@ -14,5 +14,4 @@
 .NavigationItem:active,
 .NavigationItem.active {
     background-color:rgba(200, 116, 122);
-    /*color: rgb(200, 116, 122);*/
 }
