@@ -31,3 +31,10 @@
     left: 10px;
     top: 20px;
 }
+
+/*large devices (Ex. large tablets, small laptops)*/
+@media (min-width: 991px) {
+    .SideDrawer {
+        display: none;
+    }
+}

@@ -3,7 +3,7 @@
     height: 56px;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100vw;
     transition: top 0.3s;
     z-index: 99;
 }
@@ -24,4 +24,19 @@
     border-radius: 5px;
     right: 15px;
     top: 9px;
+}
+
+.NavigationItems {
+    display: none;   
+}
+
+/*large devices (Ex. large tablets, small laptops)*/
+@media (min-width: 991px) {
+    .MenuIcon {
+        display: none;
+    }
+
+    .NavigationItems {
+        display: block;
+    }
 }

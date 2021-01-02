@@ -24,7 +24,9 @@
     padding-bottom: 30px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    padding-right: 10px;
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .RightArrowIcon {
@@ -92,4 +94,13 @@
         margin-left: auto;
         margin-right: auto;
     }
+
+    .LearnMoreText {
+        max-width: 600px;
+    }
+}
+
+/*large devices (Ex. large tablets, small laptops)*/
+@media (min-width: 991px) {
+    
 }

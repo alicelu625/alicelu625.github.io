@@ -1,17 +1,46 @@
 .NavigationItem {
-    display: block;
     width: 90%;
     background-color: #95585C;
     color: white;
     text-decoration: none;
     margin-top: 2px;
-    height: 60px;
-    line-height: 165%;
+    height: 51px;
     border-left: 10px solid #525252;
+    display: flex;
+    align-items: center;
+}
+
+.NavText {
+    padding-left: 10px;
 }
 
 .NavigationItem:hover,
 .NavigationItem:active,
 .NavigationItem.active {
-    background-color:rgba(200, 116, 122);
+    background-color:rgba(200, 116, 122, 0.6);
+}
+
+/*large devices (Ex. large tablets, small laptops)*/
+@media (min-width: 991px) {
+    .NavigationItem {
+        margin-top: 0px;
+        margin-right: 10px;
+        margin-left: 10px;
+        border-left: none;
+        justify-content: center;
+        width: auto;
+    }
+
+    .NavText {
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+    }
+
+    .NavigationItem:hover,
+    .NavigationItem:active,
+    .NavigationItem.active {
+        background-color:#95585C;
+        border-bottom: 5px solid #525252;
+    }
 }
