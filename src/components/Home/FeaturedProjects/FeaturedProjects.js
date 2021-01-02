@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {IoIosArrowForward} from 'react-icons/io';
 import {ImNewTab} from 'react-icons/im';
+import { NavLink } from 'react-router-dom';
 
 import classes from './FeaturedProjects.module.css';
 import ProjectItem from '../../ProjectItems/ProjectItem/ProjectItem';
@@ -76,7 +77,13 @@ class FeaturedProjects extends Component {
                         projectClicked={this.openModalHandler}
                     />
                 </div>
-                <a className={classes.LearnMoreText} href="https://alicezlu.com/projects">View all projects<IoIosArrowForward className={classes.RightArrowIcon}/></a>
+                <NavLink 
+                    className={classes.LearnMoreText}
+                    exact to="/projects"
+                >
+                    View all projects
+                    <IoIosArrowForward className={classes.RightArrowIcon}/>
+                </NavLink>
             </div>
         );
     }

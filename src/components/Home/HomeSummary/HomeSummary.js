@@ -2,6 +2,7 @@ import React from 'react';
 import {FaLink} from 'react-icons/fa';
 import {FaPaperclip} from 'react-icons/fa';
 import {IoIosArrowForward} from 'react-icons/io';
+import { NavLink } from 'react-router-dom';
 
 import Resume from '../../../assets/files/AliceLuResume.pdf';
 import ResumeIcon from '../../../assets/images/Home/resume-icon.png';
@@ -61,7 +62,13 @@ const homeSummary = () => {
                     ))}
                 </div>
             </div>
-            <a className={classes.LearnMoreText} href="https://alicezlu.com/aboutme">Learn More<IoIosArrowForward className={classes.RightArrowIcon}/></a>
+            <NavLink 
+                className={classes.LearnMoreText}
+                exact to="/aboutme"
+            >
+                Learn More
+                <IoIosArrowForward className={classes.RightArrowIcon}/>
+            </NavLink>
         </div>
     );
 }
