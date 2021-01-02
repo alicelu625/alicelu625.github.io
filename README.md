@@ -15,6 +15,7 @@ What I used:
 * Webpack
 * React-Router
 * React Icons
+* Figma (prototyping)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
