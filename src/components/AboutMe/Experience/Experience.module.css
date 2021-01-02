@@ -14,12 +14,9 @@
     color: #525252;
 }
 
-/*medium screens (Ex. tablets)*/
-@media (min-width: 768px) {
-    .ExperienceItems {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 500px;
-    }
+.ExperienceItems {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
 }

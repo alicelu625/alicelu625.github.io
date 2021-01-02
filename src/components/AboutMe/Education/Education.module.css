@@ -1,6 +1,9 @@
 .Education {
     height: 100%;
     padding-bottom: 10px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .Title {
@@ -21,9 +24,8 @@
 
     .EducationItems {
         display: block;
-        margin-left: auto;
-        margin-right: auto;
+        
         padding-bottom: 30px;
-        width: 500px;
+        
     }
 }
