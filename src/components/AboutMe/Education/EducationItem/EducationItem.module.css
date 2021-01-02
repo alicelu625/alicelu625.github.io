@@ -64,6 +64,7 @@
     border-top: 1px dotted #95585C;
     height: 100%;
     padding: 5px 5px;
+    cursor: pointer;
 }
 
 .DetailsToggle {

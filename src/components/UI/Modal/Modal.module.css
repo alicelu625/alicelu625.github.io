@@ -24,10 +24,9 @@
     border-radius: 5px;
 }
 
-/*for broader screens*/
-/*@media (min-width: 600px) {
+/*large devices (Ex. large tablets, small laptops)*/
+@media (min-width: 991px) {
     .Modal {
-        width: 500px;
-        left: calc(50% - 250px);
+        max-width: 600px;
     }
-}*/
+}

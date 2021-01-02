@@ -52,27 +52,27 @@ class FeaturedProjects extends Component {
                         {modalContent}
                     </Modal>
                     <ProjectItem  
-                        cover={items[0].cover}
-                        altText={items[0].altText}
-                        name={items[0].name}
-                        date={items[0].date}
-                        demo={items[0].demo}
-                        srcCode={items[0].srcCode}
-                        description={items[0].description}
-                        tools={items[0].tools}
-                        id={0}
+                        cover={items[3].cover}
+                        altText={items[3].altText}
+                        name={items[3].name}
+                        date={items[3].date}
+                        demo={items[3].demo}
+                        srcCode={items[3].srcCode}
+                        description={items[3].description}
+                        tools={items[3].tools}
+                        id={3}
                         projectClicked={this.openModalHandler}
                     />
                     <ProjectItem 
-                        cover={items[1].cover}
-                        altText={items[1].altText}
-                        name={items[1].name}
-                        date={items[1].date}
-                        demo={items[1].demo}
-                        srcCode={items[1].srcCode}
-                        description={items[1].description}
-                        tools={items[1].tools}
-                        id={1}
+                        cover={items[4].cover}
+                        altText={items[4].altText}
+                        name={items[4].name}
+                        date={items[4].date}
+                        demo={items[4].demo}
+                        srcCode={items[4].srcCode}
+                        description={items[4].description}
+                        tools={items[4].tools}
+                        id={4}
                         projectClicked={this.openModalHandler}
                     />
                 </div>

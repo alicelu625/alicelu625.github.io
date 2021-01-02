@@ -4,15 +4,46 @@ import TributePageCover from '../../assets/images/ProjectCovers/fcc-tribute-page
 import SplitTheBillCover from '../../assets/images/ProjectCovers/split-the-bill.png';
 import CSAAppCover from '../../assets/images/ProjectCovers/csa-app.png';
 import PersonalWebOldCover from '../../assets/images/ProjectCovers/personal-website-old.png';
+import PersonalWebNewCover from '../../assets/images/ProjectCovers/personal-website-new.png';
 
 export const items = [
+    {
+        cover: SplitTheBillCover,
+        altText: 'Split The Bill Project Cover',
+        name: 'Split The Bill',
+        date: 'September 2020 - Present',
+        demo: null,
+        srcCode: null,
+        description: 'It is often difficult to split a check/bill among a group of people, where everyone is paying for a different part of the check/bill (especially tax, tips, and other additional fees). In collaboration with a designer and a developer, we are developing a tool to automate the calculation of how much each person has to pay, making it easier and quicker for people to split their bills/checks for dining, groceries, etc.',
+        tools: 'Completed competitive analysis of similar existing products. Finalized the scope and features of the project. Collected sample data to test calculations. Working on rough Lo-fidelity (Lo-fi) design. Planning software structure, components, and logic.'
+    },
+    {
+        cover: PersonalWebNewCover,
+        altText: 'Personal Website Project Cover',
+        name: 'Personal Website (New)',
+        date: 'December 2020',
+        demo: 'https://alicelu625.github.io/react-burger-builder/',
+        srcCode: 'https://github.com/alicelu625/react-burger-builder',
+        description: 'This web application was a re-designed to the old personal website with new modern design and navigations to improve user interface and experience. What\'s new: New modern design, home page with summary and easy access to details, reusable components to handle projects, improved way to handle lengthy descriptions, improved navigation, used routing to render different "pages", animation.',
+        tools: 'React 16, JavaScript (ES6), HTML 5, CSS 3 (mobile first approach), Webpack, React-Router, React Icons'
+    },
+    {
+        cover: TributePageCover,
+        altText: 'Tribute Page Project Cover',
+        name: 'Tribute Page',
+        date: 'December 2020',
+        demo: 'https://codepen.io/alicelu625/pen/abmJwpq',
+        srcCode: 'https://codepen.io/alicelu625/pen/abmJwpq',
+        description: 'This is a tribute page dedicated to Martin Luther King Jr. It was completed as part of the freeCodeCamp Responsive Web Design Projects series.',
+        tools: 'HTML, CSS'
+    },
     {
         cover: BurgerBuilderCover,
         altText: 'Burger Builder Project Cover',
         name: 'Burger Builder (React)',
         date: 'September 2020 - November 2020',
-        demo: 'https://alicelu625.github.io/react-burger-builder/',
-        srcCode: 'https://github.com/alicelu625/react-burger-builder',
+        demo: 'https://alicezlu.com/',
+        srcCode: 'https://github.com/alicelu625/alicelu625.github.io',
         description: 'A web application that allows a user to build a burger by adding/removing ingredients and place the order if authenticated. An order summary is displayed upon checkout & user can proceed to checkout by filling out contact data. For mobile support (smaller screens), a toggle menu is implemented in place of the toolbar on the top.',
         tools: 'React 16, Redux, React-Router, React-Thunk, JavaScript (ES6), HTML5, CSS3 w/ Mobile First, Webpack, Backend/Database: Google Firebase, Axios, Firebase Authentication, Unit Tests (Jest, Enzyme)'
     },
@@ -35,26 +66,6 @@ export const items = [
         srcCode: 'https://github.com/alicelu625/alicelu625.github.io',
         description: 'This website was built for the purpose of showcasing my initial web development skills as well as my projects and experiences. As I learned more about web development and user experience, a new website was developed to improve user interface and user experience.',
         tools: 'React.js, JavaScript ES6, HTML5, CSS3, Webpack, GitHub Pages (server)'
-    },
-    {
-        cover: TributePageCover,
-        altText: 'Tribute Page Project Cover',
-        name: 'Tribute Page',
-        date: 'December 2020',
-        demo: 'https://codepen.io/alicelu625/pen/abmJwpq',
-        srcCode: 'https://codepen.io/alicelu625/pen/abmJwpq',
-        description: 'This is a tribute page dedicated to Martin Luther King Jr. It was completed as part of the freeCodeCamp Responsive Web Design Projects series.',
-        tools: 'HTML, CSS'
-    },
-    {
-        cover: SplitTheBillCover,
-        altText: 'Split The Bill Project Cover',
-        name: 'Split The Bill',
-        date: 'September 2020 - Present',
-        demo: null,
-        srcCode: null,
-        description: 'It is often difficult to split a check/bill among a group of people, where everyone is paying for a different part of the check/bill (especially tax, tips, and other additional fees). In collaboration with a designer and a developer, we are developing a tool to automate the calculation of how much each person has to pay, making it easier and quicker for people to split their bills/checks for dining, groceries, etc.',
-        tools: 'Completed competitive analysis of similar existing products. Finalized the scope and features of the project. Collected sample data to test calculations. Working on rough Lo-fidelity (Lo-fi) design. Planning software structure, components, and logic.'
     },
     {
         cover: CSAAppCover,

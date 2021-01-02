@@ -7,6 +7,11 @@
     border-radius: 20px;
 }
 
+.ProjectItem:hover {
+    border: 3px solid #C8747A;
+    cursor: pointer;
+}
+
 .Cover {
     width: 100%;
     height: 100%;

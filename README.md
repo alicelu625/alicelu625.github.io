@@ -1,17 +1,11 @@
 ## New - Alice's Personal Website (React)
 
-***This application is a work in progress. Expected to launch: end of December 2020***
+This web application was a re-designed to the [old personal website](https://alicezlu.com/}) with new modern design and navigations to improve user interface and experience. What's new: New modern design, home page with summary and easy access to details, reusable components to handle projects, improved way to handle lengthy descriptions, improved navigation, used routing to render different "pages", animation.
 
-This web application is a big update to the [currently deployed personal website](https://alicezlu.com/}), with new modern design and navigations to improve user interface and experience.
-
-What's new:
-* New modern design
-* Home page with summary and easy access to details
-* Reusable components to handle projects
-* Improved way to handle lengthy descriptions
-* Improved navigation
-* Using routing to render different "pages"
+Working on:
+* Gathering Feedback
 * Animation
+* Styling
 
 What I used:
 * React 16
@@ -19,6 +13,8 @@ What I used:
 * HTML 5
 * CSS 3 w/ mobile-first approach
 * Webpack
+* React-Router
+* React Icons
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
