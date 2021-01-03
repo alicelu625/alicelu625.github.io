@@ -76,6 +76,18 @@ class FeaturedProjects extends Component {
                         id={4}
                         projectClicked={this.openModalHandler}
                     />
+                    <ProjectItem 
+                        cover={items[6].cover}
+                        altText={items[6].altText}
+                        name={items[6].name}
+                        date={items[6].date}
+                        demo={items[6].demo}
+                        srcCode={items[6].srcCode}
+                        description={items[6].description}
+                        tools={items[6].tools}
+                        id={6}
+                        projectClicked={this.openModalHandler}
+                    />
                 </div>
                 <NavLink 
                     className={classes.LearnMoreText}
