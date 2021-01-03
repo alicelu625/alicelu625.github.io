@@ -48,17 +48,17 @@ const homeSummary = () => {
                 <p className={classes.MyInfoEmail}>Contact me: <a href="mailto:alicelu625@gmail.com">alicelu625@gmail.com</a></p>
                 <div className={classes.References}>
                     {references.map((ref, i) => (
-                        <a href={ref.refLink} key={i}>
-                        <img className={classes.Logos} src={ref.source} alt={ref.altText}/>
-                        {ref.isDoc
-                            ? <p className={classes.ReferenceText}>
-                                <FaPaperclip className={classes.LinkIcons}/>Resume
-                            </p>
-                            : <p className={classes.ReferenceText}>
-                                <FaLink className={classes.LinkIcons}/>{ref.name}
-                            </p>
-                        }
-                    </a>
+                        <a href={ref.refLink} target="_blank" rel="noreferrer" key={i}>
+                            <img className={classes.Logos} src={ref.source} alt={ref.altText}/>
+                            {ref.isDoc
+                                ? <p className={classes.ReferenceText}>
+                                    <FaPaperclip className={classes.LinkIcons}/>Resume
+                                </p>
+                                : <p className={classes.ReferenceText}>
+                                    <FaLink className={classes.LinkIcons}/>{ref.name}
+                                </p>
+                            }
+                        </a>
                     ))}
                 </div>
             </div>
