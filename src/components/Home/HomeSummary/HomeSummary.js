@@ -20,7 +20,7 @@ const homeSummary = () => {
             name: 'Resume'
         },
         {
-            refLink: "https://www.linkedin.com/in/zifei-alice-lu/",
+            refLink: "https://www.linkedin.com/in/alice-zifei-lu/",
             source: LinkedInLogo,
             altText: 'LinkedIn Logo',
             isDoc: false,
