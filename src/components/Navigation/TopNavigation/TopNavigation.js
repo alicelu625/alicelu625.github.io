@@ -12,7 +12,12 @@ const topNavigation = (props) => {
         if (prevScrollPos > currentScrollPos) {
             document.getElementById("topnav").style.top = "0";
         } else {
-            document.getElementById("topnav").style.top = "-72px";
+            if (prevScrollPos < 0) {
+                document.getElementById("topnav").style.top = "0";
+            }
+            else {
+                document.getElementById("topnav").style.top = "-72px";
+            }
         }
         prevScrollPos = currentScrollPos;
     }
