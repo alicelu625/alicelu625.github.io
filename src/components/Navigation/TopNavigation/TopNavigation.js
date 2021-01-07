@@ -12,6 +12,7 @@ const topNavigation = (props) => {
         if (prevScrollPos > currentScrollPos) {
             document.getElementById("topnav").style.top = "0";
         } else {
+            //prevents disspearing nav on mobile top bounce
             if (prevScrollPos < 0) {
                 document.getElementById("topnav").style.top = "0";
             }
