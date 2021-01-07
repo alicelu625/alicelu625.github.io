@@ -6,9 +6,11 @@
     border: 1px solid #ccc;
     box-shadow: 1px 1px 1px black;
     padding: 16px;
-    top: 20%;
+    top: 10%;
     box-sizing: border-box;
     transition: all 0.3s ease-out;
+    max-height: 85%;
+    overflow-y: auto;
 }
 
 .CloseButton {
@@ -24,9 +26,17 @@
     border-radius: 5px;
 }
 
+/*medium screens (Ex. tablets)*/
+@media (min-width: 768px) {
+    .Modal {
+        top: 15%;
+    }
+}
+
 /*large devices (Ex. large tablets, small laptops)*/
 @media (min-width: 991px) {
     .Modal {
         max-width: 600px;
+        max-height: 100%;
     }
 }
