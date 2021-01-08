@@ -18,7 +18,7 @@ const skills = () => {
         },
         {
             title: 'Other Skills/Traits',
-            content: 'Problem Solving, Adaptibility, Eager to Learn, Teamwork, Leadership, Organization, Passionate, Communication, Priority Management, Creativity, Flexibility'
+            content: 'Problem Solving, Adaptability, Eager to Learn, Teamwork, Leadership, Organization, Passionate, Communication, Priority Management, Creativity, Flexibility'
         }
     ]
 
