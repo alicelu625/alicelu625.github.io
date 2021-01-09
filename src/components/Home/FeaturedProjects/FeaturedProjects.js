@@ -53,18 +53,6 @@ class FeaturedProjects extends Component {
                         {modalContent}
                     </Modal>
                     <ProjectItem  
-                        cover={items[3].cover}
-                        altText={items[3].altText}
-                        name={items[3].name}
-                        date={items[3].date}
-                        demo={items[3].demo}
-                        srcCode={items[3].srcCode}
-                        description={items[3].description}
-                        tools={items[3].tools}
-                        id={3}
-                        projectClicked={this.openModalHandler}
-                    />
-                    <ProjectItem 
                         cover={items[4].cover}
                         altText={items[4].altText}
                         name={items[4].name}
@@ -77,15 +65,27 @@ class FeaturedProjects extends Component {
                         projectClicked={this.openModalHandler}
                     />
                     <ProjectItem 
-                        cover={items[6].cover}
-                        altText={items[6].altText}
-                        name={items[6].name}
-                        date={items[6].date}
-                        demo={items[6].demo}
-                        srcCode={items[6].srcCode}
-                        description={items[6].description}
-                        tools={items[6].tools}
-                        id={6}
+                        cover={items[5].cover}
+                        altText={items[5].altText}
+                        name={items[5].name}
+                        date={items[5].date}
+                        demo={items[5].demo}
+                        srcCode={items[5].srcCode}
+                        description={items[5].description}
+                        tools={items[5].tools}
+                        id={5}
+                        projectClicked={this.openModalHandler}
+                    />
+                    <ProjectItem 
+                        cover={items[7].cover}
+                        altText={items[7].altText}
+                        name={items[7].name}
+                        date={items[7].date}
+                        demo={items[7].demo}
+                        srcCode={items[7].srcCode}
+                        description={items[7].description}
+                        tools={items[7].tools}
+                        id={7}
                         projectClicked={this.openModalHandler}
                     />
                 </div>

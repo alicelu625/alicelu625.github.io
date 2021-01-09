@@ -1,6 +1,7 @@
 import BurgerBuilderCover from '../../assets/images/ProjectCovers/react-burger-builder.png';
 import ToDoListCover from '../../assets/images/ProjectCovers/pern-to-do-list.png';
 import TributePageCover from '../../assets/images/ProjectCovers/fcc-tribute-page.png';
+import SurveyFormCover from '../../assets/images/ProjectCovers/fcc-survey-form.png';
 import SplitTheBillCover from '../../assets/images/ProjectCovers/split-the-bill.png';
 import CSAAppCover from '../../assets/images/ProjectCovers/csa-app.png';
 import PersonalWebOldCover from '../../assets/images/ProjectCovers/personal-website-old.png';
@@ -18,6 +19,16 @@ export const items = [
         tools: 'Completed competitive analysis of similar existing products. Finalized the scope and features of the project. Collected sample data to test calculations. Working on rough Lo-fidelity (Lo-fi) design. Planning software structure, components, and logic.'
     },
     {
+        cover: SurveyFormCover,
+        altText: 'Survey Form Project Cover',
+        name: 'Survey Form',
+        date: 'January 2021 - Present',
+        demo: 'https://codepen.io/alicelu625/full/gOwzQWN',
+        srcCode: 'https://codepen.io/alicelu625/pen/gOwzQWN',
+        description: 'This is a sample survey form. It was completed as part of the freeCodeCamp Responsive Web Design Projects series.',
+        tools: 'HTML, CSS'
+    },
+    {
         cover: PersonalWebNewCover,
         altText: 'Personal Website Project Cover',
         name: 'Personal Website (New)',
@@ -32,7 +43,7 @@ export const items = [
         altText: 'Tribute Page Project Cover',
         name: 'Tribute Page',
         date: 'December 2020',
-        demo: 'https://codepen.io/alicelu625/pen/abmJwpq',
+        demo: 'https://codepen.io/alicelu625/full/abmJwpq',
         srcCode: 'https://codepen.io/alicelu625/pen/abmJwpq',
         description: 'This is a tribute page dedicated to Martin Luther King Jr. It was completed as part of the freeCodeCamp Responsive Web Design Projects series.',
         tools: 'HTML, CSS'
