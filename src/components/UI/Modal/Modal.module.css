@@ -24,6 +24,7 @@
     font-size: 20px;
     border: 1px solid #C8747A;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 /*medium screens (Ex. tablets)*/
