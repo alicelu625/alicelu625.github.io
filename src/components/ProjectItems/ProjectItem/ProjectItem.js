@@ -1,5 +1,4 @@
 import React from 'react';
-import { items } from '../Items';
 
 import classes from './ProjectItem.module.css';
 
