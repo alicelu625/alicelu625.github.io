@@ -32,11 +32,23 @@ class FeaturedProjects extends Component {
                     <h3 className={classes.Name}>{item.name}</h3>
                     <p className={classes.Date}>{item.date}</p>
                     <div className={classes.ButtonDiv}>
-                        <a href={item.demo}>
-                            <button className={classes.Button}>Demo <ImNewTab className={classes.Icon}/></button>
+                        <a 
+                            href={item.demo} 
+                            className={classes.Button}
+                            target="_blank"
+                            rel="noreferrer"
+                        > 
+                            <span className={classes.ButtonText}>Demo</span>
+                            <ImNewTab className={classes.Icon}/>
                         </a>
-                        <a href={item.srcCode}>
-                            <button className={classes.Button}>Source Code <ImNewTab className={classes.Icon}/></button>
+                        <a 
+                            href={item.srcCode}
+                            className={classes.Button}
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <span className={classes.ButtonText}>Source Code</span>
+                            <ImNewTab className={classes.Icon}/>
                         </a>
                     </div>
                     <p className={classes.Content}><strong>Description: </strong>{item.description}</p>
