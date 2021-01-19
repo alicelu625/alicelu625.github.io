@@ -7,11 +7,9 @@ import Home from './containers/Home/Home';
 import AboutMe from './containers/AboutMe/AboutMe';
 import Projects from './containers/Projects/Projects';
 
-const {GA_TRACKING_ID} = process.env;
-
 const App = () => {
   useEffect(() => {
-    ReactGA.initialize(GA_TRACKING_ID);
+    ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
 
     //report page view
     ReactGA.pageview(window.location.pathname + window.location.search);
