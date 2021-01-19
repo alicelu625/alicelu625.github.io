@@ -3,6 +3,7 @@ import {FaLink} from 'react-icons/fa';
 import {FaPaperclip} from 'react-icons/fa';
 import {IoIosArrowForward} from 'react-icons/io';
 import { NavLink } from 'react-router-dom';
+import ReactGA from 'react-ga';
 
 import Resume from '../../../assets/files/AliceLuResume.pdf';
 import ResumeIcon from '../../../assets/images/Home/resume-icon.png';
@@ -35,6 +36,13 @@ const homeSummary = () => {
         }
     ];
 
+    const LearnMoreClickedHandler = () => {
+        ReactGA.event({
+            category: 'NavLink',
+            action: 'Learn More About Me clicked from home page'
+        });
+    }
+
     return (
         <div className={classes.HomeSummary}>
             <p className={classes.IntroQuote}>" There has to be a better way to do this! "</p>
@@ -66,6 +74,7 @@ const homeSummary = () => {
             <NavLink 
                 className={classes.LearnMoreText}
                 exact to="/aboutme"
+                onClick={LearnMoreClickedHandler}
             >
                 Learn More
                 <IoIosArrowForward className={classes.RightArrowIcon}/>
