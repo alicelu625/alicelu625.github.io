@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.ea996df6.chunk.css",
-    "main.js": "/static/js/main.d6d760f0.chunk.js",
-    "main.js.map": "/static/js/main.d6d760f0.chunk.js.map",
+    "main.css": "/static/css/main.3512eaf3.chunk.css",
+    "main.js": "/static/js/main.87d25c59.chunk.js",
+    "main.js.map": "/static/js/main.87d25c59.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7c971e86.js",
     "runtime-main.js.map": "/static/js/runtime-main.7c971e86.js.map",
     "static/js/2.7f82fde5.chunk.js": "/static/js/2.7f82fde5.chunk.js",
     "static/js/2.7f82fde5.chunk.js.map": "/static/js/2.7f82fde5.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.ea996df6.chunk.css.map": "/static/css/main.ea996df6.chunk.css.map",
+    "static/css/main.3512eaf3.chunk.css.map": "/static/css/main.3512eaf3.chunk.css.map",
     "static/js/2.7f82fde5.chunk.js.LICENSE.txt": "/static/js/2.7f82fde5.chunk.js.LICENSE.txt",
     "static/media/AliceLuResume.80ec101f.pdf": "/static/media/AliceLuResume.80ec101f.pdf",
     "static/media/alice-picture.6229782e.JPG": "/static/media/alice-picture.6229782e.JPG",
@@ -32,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.7c971e86.js",
     "static/js/2.7f82fde5.chunk.js",
-    "static/css/main.ea996df6.chunk.css",
-    "static/js/main.d6d760f0.chunk.js"
+    "static/css/main.3512eaf3.chunk.css",
+    "static/js/main.87d25c59.chunk.js"
   ]
 }
