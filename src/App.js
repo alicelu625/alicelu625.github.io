@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import {Route, Switch} from 'react-router-dom';
+import {Route, Switch, withRouter} from 'react-router-dom';
 import ReactGA from 'react-ga';
 
 import Layout from './hoc/Layout/Layout';
@@ -31,4 +31,4 @@ const App = () => {
   );
 }
 
-export default App;
+export default withRouter(App);
