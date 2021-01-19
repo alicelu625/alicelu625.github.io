@@ -33,7 +33,15 @@ const homeSummary = () => {
             isDoc: false,
             name: 'Github'
         }
-    ]
+    ];
+
+    const LearnMoreClickedHandler = () => {
+        ReactGA.event({
+            category: 'NavLink',
+            action: 'Learn More About Me clicked from home page'
+        });
+    }
+
     return (
         <div className={classes.HomeSummary}>
             <p className={classes.IntroQuote}>" There has to be a better way to do this! "</p>
@@ -65,6 +73,7 @@ const homeSummary = () => {
             <NavLink 
                 className={classes.LearnMoreText}
                 exact to="/aboutme"
+                onClick="LearnMoreClickedHandler"
             >
                 Learn More
                 <IoIosArrowForward className={classes.RightArrowIcon}/>
