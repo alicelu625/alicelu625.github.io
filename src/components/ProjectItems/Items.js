@@ -33,8 +33,8 @@ export const items = [
         altText: 'Personal Website Project Cover',
         name: 'Personal Website (New)',
         date: 'December 2020',
-        demo: 'https://alicelu625.github.io/react-burger-builder/',
-        srcCode: 'https://github.com/alicelu625/react-burger-builder',
+        demo: 'https://alicezlu.com/',
+        srcCode: 'https://github.com/alicelu625/alicelu625.github.io',
         description: 'This web application was a re-designed to the old personal website with new modern design and navigations to improve user interface and experience. What\'s new: New modern design, home page with summary and easy access to details, reusable components to handle projects, improved way to handle lengthy descriptions, improved navigation, used routing to render different "pages", animation.',
         tools: 'React 16, JavaScript (ES6), HTML 5, CSS 3 (mobile first approach), Webpack, React-Router, React Icons'
     },
@@ -53,8 +53,8 @@ export const items = [
         altText: 'Burger Builder Project Cover',
         name: 'Burger Builder (React)',
         date: 'September 2020 - November 2020',
-        demo: 'https://alicezlu.com/',
-        srcCode: 'https://github.com/alicelu625/alicelu625.github.io',
+        demo: 'https://alicelu625.github.io/react-burger-builder/',
+        srcCode: 'https://github.com/alicelu625/react-burger-builder',
         description: 'A web application that allows a user to build a burger by adding/removing ingredients and place the order if authenticated. An order summary is displayed upon checkout & user can proceed to checkout by filling out contact data. For mobile support (smaller screens), a toggle menu is implemented in place of the toolbar on the top.',
         tools: 'React 16, Redux, React-Router, React-Thunk, JavaScript (ES6), HTML5, CSS3 w/ Mobile First, Webpack, Backend/Database: Google Firebase, Axios, Firebase Authentication, Unit Tests (Jest, Enzyme)'
     },
@@ -73,8 +73,8 @@ export const items = [
         altText: 'Initial Personal Website Project Cover',
         name: 'Personal Website (Old)',
         date: 'September 2020',
-        demo: 'https://alicezlu.com/',
-        srcCode: 'https://github.com/alicelu625/alicelu625.github.io',
+        demo: 'https://alicezlu.com/personal-website-old/',
+        srcCode: 'https://github.com/alicelu625/personal-website-old',
         description: 'This website was built for the purpose of showcasing my initial web development skills as well as my projects and experiences. As I learned more about web development and user experience, a new website was developed to improve user interface and user experience.',
         tools: 'React.js, JavaScript ES6, HTML5, CSS3, Webpack, GitHub Pages (server)'
     },
