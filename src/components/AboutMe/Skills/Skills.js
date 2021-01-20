@@ -10,7 +10,7 @@ const skills = () => {
         },
         {
             title: 'I\'ve worked with',
-            content: 'React.js, Redux, Node.js, Express.js, Vue.js, RESTful APIs, PostgreSQL, Firebase (database & authentication), Jest/Enzyme (unit testing), Chrome Dev Tools/Redux Dev Tools (debugging), Git, Figma, Postman, Content Management Systems (CMS), Android Studios'
+            content: 'React.js, Redux, Node.js, Express.js, Vue.js, RESTful APIs, PostgreSQL, Jest/Enzyme (Unit Testing), Chrome Dev Tools/Redux Dev Tools (Debugging), Heroku, Firebase (Database & Authentication), Git, Figma (Prototyping), Postman (API Testing), Content Management Systems (CMS), Android Studios'
         },
         {
             title: 'Technical Skills',
@@ -18,7 +18,11 @@ const skills = () => {
         },
         {
             title: 'Other Skills/Traits',
-            content: 'Problem Solving, Adaptability, Eager to Learn, Teamwork, Leadership, Organization, Passionate, Communication, Priority Management, Creativity, Flexibility'
+            content: 'Problem Solving, Adaptability, Eager to Learn, Collaborative, Leadership, Organization, Passionate, Communication, Priority Management, Creativity, Flexibility'
+        },
+        {
+            title: 'Multilingual',
+            content: 'English, Chinese (Mandarin, Cantonese)'
         }
     ]
 
