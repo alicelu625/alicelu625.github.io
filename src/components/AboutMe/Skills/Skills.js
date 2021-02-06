@@ -10,11 +10,11 @@ const skills = () => {
         },
         {
             title: 'I\'ve worked with',
-            content: 'React.js, Redux, Node.js, Express.js, Vue.js, RESTful APIs, PostgreSQL, Jest/Enzyme (Unit Testing), Chrome Dev Tools/Redux Dev Tools (Debugging), Heroku, Firebase (Database & Authentication), Git, Figma (Prototyping), Postman (API Testing), Content Management Systems (CMS), Android Studios'
+            content: 'React, Redux, Node, Express, RESTful APIs, PostgreSQL, Jest/Enzyme (Unit Testing), Chrome Dev Tools/Redux Dev Tools (Debugging), Heroku, Firebase (Database & Authentication), Git, Figma (Prototyping), Postman (API Testing), Google Analytics, Content Management Systems (CMS), Android Studios'
         },
         {
             title: 'Technical Skills',
-            content: 'Responsive Web Development, UX Design, Web Accessibility, Database Systems, Data Structures, Algorithms, Mobile Application Development, Computer Systems Design, Data Mining, Project Management'
+            content: 'Responsive Web Development, UX Design, Agile Development, Web Accessibility, Database Systems, Data Structures, Algorithms, Mobile Application Development, Computer Systems Design, Data Mining, Project Management'
         },
         {
             title: 'Other Skills/Traits',
