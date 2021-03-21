@@ -3,8 +3,19 @@ import DGLogo from '../../../assets/images/WorkLogos/dg-logo.jpg';
 import GLGLogo from '../../../assets/images/WorkLogos/glg-logo.jpg';
 import CanvasLogo from '../../../assets/images/WorkLogos/canvas-logo.png';
 import ROCKLogo from '../../../assets/images/WorkLogos/rock-logo.png';
+import RHLogo from '../../../assets/images/WorkLogos/rh-logo.jpg';
 
 export const items = [
+    {
+        logo: RHLogo,
+        altText: 'Robert Half Logo',
+        name: 'Robert Half',
+        title: 'Marketing Web Developer',
+        date: '03/2021 - Present',
+        location: 'San Ramon, CA/Remote',
+        link: 'https://www.roberthalf.com/',
+        content: 'I recently began my work at Robert Half to assist the Marketing Web Team in creating, updating, and managing web contents and components, while learning various web concepts from the team.'
+    },
     {
         logo: UCSCLogo,
         altText: 'UC Santa Cruz Logo',

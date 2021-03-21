@@ -105,7 +105,7 @@ class FeaturedProjects extends Component {
                     className={classes.LearnMoreText}
                     exact to="/projects"
                 >
-                    View all projects
+                    View All Projects
                     <IoIosArrowForward className={classes.RightArrowIcon}/>
                 </NavLink>
             </div>

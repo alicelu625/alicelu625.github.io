@@ -44,9 +44,12 @@
     color: #95585C;
     text-decoration: underline;
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .RightArrowIcon {
@@ -65,9 +68,15 @@
         padding-right: 50px;
         padding-top: 30px;
     }
+
+    .LearnMoreText {
+        max-width: 600px;
+    }
 }
 
 /*large devices (Ex. large tablets, small laptops)*/
 @media (min-width: 991px) {
-
+    .LearnMoreText {
+        max-width: 850px;
+    }
 }

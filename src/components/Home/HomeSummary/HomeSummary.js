@@ -4,21 +4,13 @@ import {FaPaperclip} from 'react-icons/fa';
 import {IoIosArrowForward} from 'react-icons/io';
 import { NavLink } from 'react-router-dom';
 
-import Resume from '../../../assets/files/AliceLuResume.pdf';
-import ResumeIcon from '../../../assets/images/Home/resume-icon.png';
+import TwitterLogo from '../../../assets/images/Home/twitter-logo.png'
 import LinkedInLogo from '../../../assets/images/Home/linkedin-logo.png';
 import GitHubLogo from '../../../assets/images/Home/github-logo.png';
 import classes from './HomeSummary.module.css';
 
 const homeSummary = () => {
     const references = [
-        {
-            refLink: Resume,
-            source: ResumeIcon,
-            altText: 'Resume Icon',
-            isDoc: true,
-            name: 'Resume'
-        },
         {
             refLink: "https://www.linkedin.com/in/alice-zifei-lu/",
             source: LinkedInLogo,
@@ -32,6 +24,13 @@ const homeSummary = () => {
             altText: 'GitHub Logo',
             isDoc: false,
             name: 'Github'
+        },
+        {
+            refLink: "https://twitter.com/aliceluuuuuu",
+            source: TwitterLogo,
+            altText: 'Twitter Logo',
+            isDoc: false,
+            name: 'Twitter'
         }
     ]
     return (
@@ -44,7 +43,6 @@ const homeSummary = () => {
                     Hi, I'm Alice!
                     <br/>Software/Web Developer
                 </p>
-                <p className={classes.MyInfoLooking}>Looking for opportunities!</p>
                 <p className={classes.MyInfoEmail}>Contact me: <a href="mailto:alicelu625@gmail.com">alicelu625@gmail.com</a></p>
                 <div className={classes.References}>
                     {references.map((ref, i) => (

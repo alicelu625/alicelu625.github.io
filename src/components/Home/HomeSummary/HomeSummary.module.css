@@ -50,7 +50,7 @@
 .MyInfoEmail {
     font-size: 13px;
     padding-left: 20px;
-    padding-top: 5px;
+    padding-top: 0px;
     margin: 0;
 }
 
@@ -82,11 +82,10 @@
     font-size: 16px;
     color: #95585C;
     text-decoration: underline;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    padding-top: 5px;
-    padding-right: 0px;
     max-width: 400px;
     margin-right: auto;
     margin-left: auto;
@@ -158,5 +157,9 @@
 
     .MyInfo {
         max-width: 500px;
+    }
+
+    .LearnMoreText {
+        max-width: 800px;
     }
 }

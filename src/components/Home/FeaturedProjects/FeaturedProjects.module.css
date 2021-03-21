@@ -112,3 +112,10 @@
         max-width: 600px;
     }
 }
+
+/*large devices (Ex. large tablets, small laptops)*/
+@media (min-width: 991px) {
+    .LearnMoreText {
+        max-width: 850px;
+    }
+}

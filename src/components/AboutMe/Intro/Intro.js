@@ -8,11 +8,11 @@ const intro = () => {
     const info = [
         {
             title: 'About me',
-            content: 'I\'m a recent 2020 graduate at the University of California: Santa Cruz, where I discovered my passion for software/web development. I enjoy learning new tools and concepts to improve user experience. It is one of my goals to build products that will help simplify ways for people to complete tasks, communicate with each other, access information, and solve real world problems.'
+            content: 'I graduated from University of California: Santa Cruz in 2020 with a Bachelor degree in Computer Science. It is one of my goals to build products that will help simplify ways for people to complete tasks, communicate with each other, access information, and solve real world problems. I’m learning new software/web development skills and user experience (UX) concepts everyday then applying them to exciting projects!'
         },
         {
             title: 'When I\'m not coding, I like to',
-            content: 'Exercise, explore new Apps, motivate others, family/friends time, longboarding'
+            content: 'Exercise, explore new Apps, motivate others, family/friends time, jog by the beach'
         }
     ];
 

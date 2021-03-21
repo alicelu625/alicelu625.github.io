@@ -22,17 +22,19 @@ const featuredSkills = () => {
     ];
 
     return (
-        <div className={classes.FeaturedSkills}>
-            <h2 className={classes.Title}>Featured Skills</h2>
-            <div className={classes.LogosRow1}>
-                {logosRow1.map((logo, i) => (
-                    <img key={i} className={classes.Logo} src={logo.source} alt={logo.altText}/>
-                ))}
-            </div>
-            <div className={classes.LogosRow2}>
-                {logosRow2.map((logo, i) => (
-                    <img key={i} className={classes.Logo} src={logo.source} alt={logo.altText}/>
-                ))}
+        <div>
+            <div className={classes.FeaturedSkills}>
+                <h2 className={classes.Title}>Featured Skills</h2>
+                <div className={classes.LogosRow1}>
+                    {logosRow1.map((logo, i) => (
+                        <img key={i} className={classes.Logo} src={logo.source} alt={logo.altText}/>
+                    ))}
+                </div>
+                <div className={classes.LogosRow2}>
+                    {logosRow2.map((logo, i) => (
+                        <img key={i} className={classes.Logo} src={logo.source} alt={logo.altText}/>
+                    ))}
+                </div>
             </div>
             <HashLink className={classes.LearnMoreText} to="/aboutme#skills">View All Skills<IoIosArrowForward className={classes.RightArrowIcon}/></HashLink>
         </div>
