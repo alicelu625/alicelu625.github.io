@@ -14,7 +14,8 @@
     font-family: 'Source Sans Pro', sans-serif;
     color: #525252;
     margin: 0;
-    padding: 10px 0px;
+    padding-bottom: 10px;
+    padding-top: 30px;
 }
 
 .IntroSentences {
@@ -82,7 +83,7 @@
     font-size: 16px;
     color: #95585C;
     text-decoration: underline;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 30px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -99,7 +100,7 @@
 @media (min-width: 768px) {
     .IntroQuote {
         font-size: 35px;
-        padding: 30px 20px;
+        padding: 45px 20px 10px 20px;
     }
     
     .IntroSentences {
@@ -142,6 +143,7 @@
 
     .LearnMoreText {
         max-width: 600px;
+        padding-bottom: 45px;
     }
 }
 

@@ -4,6 +4,12 @@
     color: #525252;
     text-decoration: underline;
     margin-bottom: 0px;
-    margin-top: 72px;
-    padding-top: 15px;
+    margin-top: 86px;
+}
+
+/*medium screens (Ex. tablets)*/
+@media (min-width: 768px) {
+    .Title {
+        margin-top: 101px;
+    }
 }

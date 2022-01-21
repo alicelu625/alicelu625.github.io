@@ -1,6 +1,6 @@
 .ProjectItem {
     position: relative;
-    margin-top: 25px;
+    margin-top: 30px;
     border: 1px solid #525252;
     height: 230px;
     width: 270px;
@@ -42,7 +42,6 @@
 @media (min-width: 768px) {
     .ProjectItem {
         position: relative;
-        margin-top: 25px;
         margin-left: 10px;
         margin-right: 10px;
     }
