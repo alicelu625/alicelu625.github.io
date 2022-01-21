@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.f2834701.chunk.css",
-    "main.js": "/static/js/main.d5bcd19a.chunk.js",
-    "main.js.map": "/static/js/main.d5bcd19a.chunk.js.map",
+    "main.css": "/static/css/main.c1b1c2c0.chunk.css",
+    "main.js": "/static/js/main.04e45d5f.chunk.js",
+    "main.js.map": "/static/js/main.04e45d5f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7c971e86.js",
     "runtime-main.js.map": "/static/js/runtime-main.7c971e86.js.map",
     "static/js/2.7f82fde5.chunk.js": "/static/js/2.7f82fde5.chunk.js",
     "static/js/2.7f82fde5.chunk.js.map": "/static/js/2.7f82fde5.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.f2834701.chunk.css.map": "/static/css/main.f2834701.chunk.css.map",
+    "static/css/main.c1b1c2c0.chunk.css.map": "/static/css/main.c1b1c2c0.chunk.css.map",
     "static/js/2.7f82fde5.chunk.js.LICENSE.txt": "/static/js/2.7f82fde5.chunk.js.LICENSE.txt",
     "static/media/alice-picture.6229782e.JPG": "/static/media/alice-picture.6229782e.JPG",
     "static/media/csa-app.0d564017.png": "/static/media/csa-app.0d564017.png",
@@ -32,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.7c971e86.js",
     "static/js/2.7f82fde5.chunk.js",
-    "static/css/main.f2834701.chunk.css",
-    "static/js/main.d5bcd19a.chunk.js"
+    "static/css/main.c1b1c2c0.chunk.css",
+    "static/js/main.04e45d5f.chunk.js"
   ]
 }
