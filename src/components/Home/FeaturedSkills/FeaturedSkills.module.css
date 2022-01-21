@@ -61,6 +61,10 @@
         max-width: 600px;
     }
 
+    .Title {
+        padding-top: 45px;
+    }
+
     .Logo {
         height: 60px;
         padding-left: 50px;
