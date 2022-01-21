@@ -83,7 +83,7 @@
     .Anchors {
         display: flex;
         justify-content: space-evenly;
-        padding-top: 30px;
+        padding-top: 45px;
     }
 
     .AnchorLink {
