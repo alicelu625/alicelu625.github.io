@@ -83,7 +83,7 @@ export const items = [
         altText: 'CSA App Project Cover',
         name: 'CSA App',
         date: 'April 2018 - June 2018',
-        demo: 'https://www.youtube.com/watch?v=MFH4bRvFcU8&feature=youtu.be',
+        demo: 'https://www.youtube.com/watch?v=MFH4bRvFcU8',
         srcCode: 'https://github.com/alicelu625/android-studio-csa-app',
         description: 'This application was designed specifically for UC Santa Cruz\'s Chinese Student Association (CSA), but this app can be altered to be used for similar student clubs. The purpose of the app was to keep track of CSA club information, giving users easier access to information and events that they may be seeking without the need to contact the club directly. Features of this app includes display of general information about the club, announcements, calendar to display meeting dates and events, and information about the club’s house system.',
         tools: 'Android Studio, Java, XML'
