@@ -2,21 +2,21 @@ import BurgerBuilderCover from '../../assets/images/ProjectCovers/react-burger-b
 import ToDoListCover from '../../assets/images/ProjectCovers/pern-to-do-list.png';
 import TributePageCover from '../../assets/images/ProjectCovers/fcc-tribute-page.png';
 import SurveyFormCover from '../../assets/images/ProjectCovers/fcc-survey-form.png';
-import SplitTheBillCover from '../../assets/images/ProjectCovers/split-the-bill.png';
+import EzSplitCover from '../../assets/images/ProjectCovers/ezsplit.png';
 import CSAAppCover from '../../assets/images/ProjectCovers/csa-app.png';
 import PersonalWebOldCover from '../../assets/images/ProjectCovers/personal-website-old.png';
 import PersonalWebNewCover from '../../assets/images/ProjectCovers/personal-website-new.png';
 
 export const items = [
     {
-        cover: SplitTheBillCover,
-        altText: 'Split A Bill Project Cover',
-        name: 'Split A Bill',
+        cover: EzSplitCover,
+        altText: 'ezSplit Project Cover',
+        name: 'ezSplit (React)',
         date: 'September 2020 - Present',
-        demo: 'https://www.figma.com/proto/GmX8JOWGWJIGnEGo5iC3im/Split-The-Bill?node-id=34%3A4&viewport=-929%2C121%2C0.5&scaling=scale-down',
-        srcCode: 'https://github.com/alicelu625/split-a-bill',
-        description: 'It is often difficult to split a check/bill among a group of people, where everyone is paying for a different part of the check/bill (especially tax, tips, and other additional fees). In collaboration with a designer and a developer, we are developing a tool to automate the calculation of how much each person has to pay, making it easier and quicker for people to split their bills/checks for dining, groceries, etc.',
-        tools: 'Completed competitive analysis of similar existing products. Finalized the scope and features of the project. Collected sample data to test calculations. Completed wireframe and initial usability testing. Began working on components.'
+        demo: 'https://alicelu625.github.io/ez-split/',
+        srcCode: 'https://github.com/alicelu625/ez-split',
+        description: 'It is often difficult to split a check/bill among a group of people, where everyone is paying for a different part of the check/bill (especially tax, tips, and other additional fees). In collaboration with a designer and a developer, we developed a tool to automate the calculation of how much each person has to pay, making it easier and quicker for people to split their bills/checks for dining, groceries, etc.',
+        tools: 'React, JavaScript, HTML, CSS, Figma'
     },
     {
         cover: SurveyFormCover,
