@@ -4,7 +4,6 @@ import {FaPaperclip} from 'react-icons/fa';
 import {IoIosArrowForward} from 'react-icons/io';
 import { NavLink } from 'react-router-dom';
 
-import TwitterLogo from '../../../assets/images/Home/twitter-logo.png'
 import LinkedInLogo from '../../../assets/images/Home/linkedin-logo.png';
 import GitHubLogo from '../../../assets/images/Home/github-logo.png';
 import classes from './HomeSummary.module.css';
@@ -24,13 +23,6 @@ const homeSummary = () => {
             altText: 'GitHub Logo',
             isDoc: false,
             name: 'Github'
-        },
-        {
-            refLink: "https://twitter.com/aliceluuuuuu",
-            source: TwitterLogo,
-            altText: 'Twitter Logo',
-            isDoc: false,
-            name: 'Twitter'
         }
     ]
     return (
