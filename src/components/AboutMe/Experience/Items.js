@@ -14,7 +14,7 @@ export const items = [
         date: '03/2021 - Present',
         location: 'San Ramon, CA/Remote',
         link: 'https://www.roberthalf.com/',
-        content: 'I recently began my work at Robert Half to assist the Marketing Web Team in creating, updating, and managing web contents and components, while learning various web concepts from the team.'
+        content: 'Working at Robert Half has given me the opportunity to maintain global websites and launch campaigns by working with business stakeholders, UX designers, backend teams, project managers, etc. At the same time, I’ve gotten great exposure to marketing concepts.'
     },
     {
         logo: UCSCLogo,

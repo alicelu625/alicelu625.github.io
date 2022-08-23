@@ -15,7 +15,7 @@ export const items = [
         logo: FCCLogo,
         altText: 'freeCodeCamp logo',
         name: 'freeCodeCamp',
-        date: 'September 2020 - Present',
+        date: 'September 2020 - March 2021',
         course: 'Responsive Web Design',
         content: 'College only gave me the basics in web development, so I took the initiative to find free online resources to expand my knowledge and skills. I discovered freeCodeCamp and began their Responsive Web Design Certification coursework, where I learned about HTML, CSS (including Flexbox and Grid), visual design, accessibility, and principles of responsive web design.'
     },

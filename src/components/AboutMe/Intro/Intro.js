@@ -12,7 +12,7 @@ const intro = () => {
         },
         {
             title: 'When I\'m not coding, I like to',
-            content: 'Exercise, explore new Apps, motivate others, family/friends time, jog by the beach'
+            content: 'Exercise, explore new Apps, motivate others, family/friends time, try new food'
         }
     ];
 
