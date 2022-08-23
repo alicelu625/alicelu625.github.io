@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.b6de187c.chunk.css",
-    "main.js": "/static/js/main.04e45d5f.chunk.js",
-    "main.js.map": "/static/js/main.04e45d5f.chunk.js.map",
+    "main.js": "/static/js/main.9aebb8d9.chunk.js",
+    "main.js.map": "/static/js/main.9aebb8d9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7c971e86.js",
     "runtime-main.js.map": "/static/js/runtime-main.7c971e86.js.map",
     "static/js/2.7f82fde5.chunk.js": "/static/js/2.7f82fde5.chunk.js",
@@ -14,6 +14,7 @@
     "static/media/csa-app.0d564017.png": "/static/media/csa-app.0d564017.png",
     "static/media/css-logo.4e67641b.png": "/static/media/css-logo.4e67641b.png",
     "static/media/dg-logo.e1db0395.jpg": "/static/media/dg-logo.e1db0395.jpg",
+    "static/media/ezsplit.2ebc0112.png": "/static/media/ezsplit.2ebc0112.png",
     "static/media/fcc-logo.1f7e3c57.jpg": "/static/media/fcc-logo.1f7e3c57.jpg",
     "static/media/fcc-survey-form.479d3665.png": "/static/media/fcc-survey-form.479d3665.png",
     "static/media/fcc-tribute-page.19817cec.png": "/static/media/fcc-tribute-page.19817cec.png",
@@ -26,13 +27,12 @@
     "static/media/react-burger-builder.d5a53f55.png": "/static/media/react-burger-builder.d5a53f55.png",
     "static/media/react-logo.f153eb9f.png": "/static/media/react-logo.f153eb9f.png",
     "static/media/rh-logo.fc346a7a.jpg": "/static/media/rh-logo.fc346a7a.jpg",
-    "static/media/split-the-bill.52b55a3d.png": "/static/media/split-the-bill.52b55a3d.png",
     "static/media/ucsc-logo.64aba2e1.png": "/static/media/ucsc-logo.64aba2e1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7c971e86.js",
     "static/js/2.7f82fde5.chunk.js",
     "static/css/main.b6de187c.chunk.css",
-    "static/js/main.04e45d5f.chunk.js"
+    "static/js/main.9aebb8d9.chunk.js"
   ]
 }
