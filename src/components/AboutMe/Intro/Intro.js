@@ -12,12 +12,13 @@ const intro = () => {
         },
         {
             title: 'When I\'m not coding, I like to',
-            content: 'Exercise, explore new Apps, motivate others, family/friends time, try new food'
+            content: 'Exercise, family/friends time, try new food, snowboard.'
         }
     ];
 
     return (
         <div className={classes.Intro}>
+            <h1>About Me</h1>
             <div className={classes.PicInfo}>
                 <img className={classes.Pic} src={MyPic} alt='Alice'/>
                 <div className={classes.InfoSection}>
@@ -32,9 +33,9 @@ const intro = () => {
                 </div>
             </div>
             <div className={classes.Anchors}>
-                <HashLink smooth className={classes.AnchorLink} to="/aboutme#education">Education</HashLink>
                 <HashLink smooth className={classes.AnchorLink} to="/aboutme#skills">Skills</HashLink>
                 <HashLink smooth className={classes.AnchorLink} to="/aboutme#experience">Experience</HashLink>
+                <HashLink smooth className={classes.AnchorLink} to="/aboutme#education">Education</HashLink>
             </div>
         </div>
     );

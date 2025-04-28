@@ -7,7 +7,7 @@ import {items} from './Items';
 const experience = () => {
     return (
         <div id="experience" className={classes.Experience}>
-            <h2 className={classes.Title}>Experience</h2>
+            <h2>Experience</h2>
             <div className={classes.ExperienceItems}>
                 {items.map((item, i) => (
                     <ExperienceItem

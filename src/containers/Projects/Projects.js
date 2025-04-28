@@ -10,8 +10,8 @@ class Projects extends Component {
     
     render() {
         return (
-            <div>
-                <h2 className={classes.Title}>Projects</h2>
+            <div className={classes.Projects}>
+                <h1 className={classes.Title}>Projects</h1>
                 <ProjectItems/>
             </div>
         );

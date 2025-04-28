@@ -1,7 +1,7 @@
 import React from 'react';
-import {FaLink} from 'react-icons/fa';
-import {FaPaperclip} from 'react-icons/fa';
-import {IoIosArrowForward} from 'react-icons/io';
+import { FaLink } from 'react-icons/fa';
+import { FaPaperclip } from 'react-icons/fa';
+import { IoIosArrowForward } from 'react-icons/io';
 import { NavLink } from 'react-router-dom';
 
 import LinkedInLogo from '../../../assets/images/Home/linkedin-logo.png';
@@ -27,38 +27,34 @@ const homeSummary = () => {
     ]
     return (
         <div className={classes.HomeSummary}>
-            <p className={classes.IntroQuote}>" There has to be a better way to do this! "</p>
-            <p className={classes.IntroSentences}>Does this ever cross your mind when working on a task?</p>
-            <p className={classes.IntroSentences}>It always crosses mine and motivates me to build products to achieve the "better way".</p>
+            <h1>Hi, I'm Alice — building user-friendly web digital experiences.</h1>
+            <p className={classes.IntroCopy}>A passionate web developer with marketing expertise, crafting websites that not only perform but also convert.</p>
             <div className={classes.MyInfo}>
-                <p className={classes.MyInfoIntro}>
-                    Hi, I'm Alice!
-                    <br/>Software/Web Developer
-                </p>
-                <p className={classes.MyInfoEmail}>Contact me: <a href="mailto:alicelu625@gmail.com">alicelu625@gmail.com</a></p>
                 <div className={classes.References}>
                     {references.map((ref, i) => (
                         <a href={ref.refLink} target="_blank" rel="noreferrer" key={i}>
-                            <img className={classes.Logos} src={ref.source} alt={ref.altText}/>
+                            <img className={classes.Logos} src={ref.source} alt={ref.altText} />
                             {ref.isDoc
                                 ? <p className={classes.ReferenceText}>
-                                    <FaPaperclip className={classes.LinkIcons}/>Resume
+                                    <FaPaperclip className={classes.LinkIcons} />Resume
                                 </p>
                                 : <p className={classes.ReferenceText}>
-                                    <FaLink className={classes.LinkIcons}/>{ref.name}
+                                    <FaLink className={classes.LinkIcons} />{ref.name}
                                 </p>
                             }
                         </a>
                     ))}
                 </div>
             </div>
-            <NavLink 
-                className={classes.LearnMoreText}
-                exact to="/aboutme"
-            >
-                Learn More
-                <IoIosArrowForward className={classes.RightArrowIcon}/>
-            </NavLink>
+            <div className={classes.LearnMore}>
+                <NavLink
+                    className={classes.LearnMoreText}
+                    exact to="/aboutme"
+                >
+                    Learn More
+                    <IoIosArrowForward className={classes.RightArrowIcon} />
+                </NavLink>
+            </div>
         </div>
     );
 }

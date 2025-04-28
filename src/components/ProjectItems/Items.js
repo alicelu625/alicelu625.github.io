@@ -1,5 +1,4 @@
 import BurgerBuilderCover from '../../assets/images/ProjectCovers/react-burger-builder.png';
-import ToDoListCover from '../../assets/images/ProjectCovers/pern-to-do-list.png';
 import TributePageCover from '../../assets/images/ProjectCovers/fcc-tribute-page.png';
 import SurveyFormCover from '../../assets/images/ProjectCovers/fcc-survey-form.png';
 import EzSplitCover from '../../assets/images/ProjectCovers/ezsplit.png';
@@ -9,6 +8,16 @@ import PersonalWebNewCover from '../../assets/images/ProjectCovers/personal-webs
 
 export const items = [
     {
+        cover: BurgerBuilderCover,
+        altText: 'Burger Builder Project Cover',
+        name: 'Burger Builder (React)',
+        date: 'September 2020 - November 2020',
+        demo: 'https://alicelu625.github.io/react-burger-builder/',
+        srcCode: 'https://github.com/alicelu625/react-burger-builder',
+        description: 'A web application that allows a user to build a burger by adding/removing ingredients and place the order if authenticated. An order summary is displayed upon checkout & user can proceed to checkout by filling out contact data. For mobile support (smaller screens), a toggle menu is implemented in place of the toolbar on the top.',
+        tools: 'React 16, Redux, React-Router, React-Thunk, JavaScript (ES6), HTML5, CSS3 w/ Mobile First, Webpack, Backend/Database: Google Firebase, Axios, Firebase Authentication, Unit Tests (Jest, Enzyme)'
+    },
+    {
         cover: EzSplitCover,
         altText: 'ezSplit Project Cover',
         name: 'ezSplit (React)',
@@ -17,16 +26,6 @@ export const items = [
         srcCode: 'https://github.com/alicelu625/ez-split',
         description: 'It is often difficult to split a check/bill among a group of people, where everyone is paying for a different part of the check/bill (especially tax, tips, and other additional fees). In collaboration with a designer and a developer, we developed a tool to automate the calculation of how much each person has to pay, making it easier and quicker for people to split their bills/checks for dining, groceries, etc.',
         tools: 'React, JavaScript, HTML, CSS, Figma'
-    },
-    {
-        cover: SurveyFormCover,
-        altText: 'Survey Form Project Cover',
-        name: 'Survey Form',
-        date: 'January 2021',
-        demo: 'https://codepen.io/alicelu625/full/gOwzQWN',
-        srcCode: 'https://codepen.io/alicelu625/pen/gOwzQWN',
-        description: 'This is a sample survey form. It was completed as part of the freeCodeCamp Responsive Web Design Projects series.',
-        tools: 'HTML, CSS'
     },
     {
         cover: PersonalWebNewCover,
@@ -49,24 +48,14 @@ export const items = [
         tools: 'HTML, CSS'
     },
     {
-        cover: BurgerBuilderCover,
-        altText: 'Burger Builder Project Cover',
-        name: 'Burger Builder (React)',
-        date: 'September 2020 - November 2020',
-        demo: 'https://alicelu625.github.io/react-burger-builder/',
-        srcCode: 'https://github.com/alicelu625/react-burger-builder',
-        description: 'A web application that allows a user to build a burger by adding/removing ingredients and place the order if authenticated. An order summary is displayed upon checkout & user can proceed to checkout by filling out contact data. For mobile support (smaller screens), a toggle menu is implemented in place of the toolbar on the top.',
-        tools: 'React 16, Redux, React-Router, React-Thunk, JavaScript (ES6), HTML5, CSS3 w/ Mobile First, Webpack, Backend/Database: Google Firebase, Axios, Firebase Authentication, Unit Tests (Jest, Enzyme)'
-    },
-    {
-        cover: ToDoListCover,
-        altText: 'To Do List Project Cover',
-        name: 'To Do List (PERN)',
-        date: 'November 2020 - December 2020',
-        demo: 'https://pern-to-do-list.herokuapp.com/',
-        srcCode: 'https://github.com/alicelu625/pern-to-do-list',
-        description: 'The To Do List application allows a user to add, edit, and delete to do list items by sending GET, PUT, POST, and DELETE API requests to the server.',
-        tools: 'PERN stack (PostgreSQL, Express.js, React.js, Node.js), JavaScript, HTML, Bootstrap, Heroku, Webpack, CORS, pg (node-postgres), RESTful APIs'
+        cover: SurveyFormCover,
+        altText: 'Survey Form Project Cover',
+        name: 'Survey Form',
+        date: 'January 2021',
+        demo: 'https://codepen.io/alicelu625/full/gOwzQWN',
+        srcCode: 'https://codepen.io/alicelu625/pen/gOwzQWN',
+        description: 'This is a sample survey form. It was completed as part of the freeCodeCamp Responsive Web Design Projects series.',
+        tools: 'HTML, CSS'
     },
     {
         cover: PersonalWebOldCover,
