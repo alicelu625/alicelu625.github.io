@@ -3,16 +3,7 @@
     font-family: 'Roboto', sans-serif;
     color: #525252;
     height: 100%;
-    padding-top: 30px;
-    padding-bottom: 15px;
-}
-
-.Title {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: underline;
-    margin-bottom: 30px;
-    margin-top: 0px;
+    padding: 30px;
 }
 
 .SkillsList {
@@ -20,12 +11,23 @@
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;
+}
+
+.Skill {
+    margin-bottom: 0px;
 }
 
 /*medium screens (Ex. tablets)*/
 @media (min-width: 768px) {
     .Skills {
-        padding-top: 45px;
-        padding-bottom: 30px;
+        padding: 45px;
+    }
+}
+
+/*large devices*/
+@media (min-width: 1024px) {
+    .Skills {
+        padding: 60px;
     }
 }

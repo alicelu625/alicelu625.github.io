@@ -1,17 +1,9 @@
 .Experience {
     height: 100%;
-    background-color: rgba(200, 116, 122, 0.1);
-    padding-top: 30px;
-    padding-bottom: 60px;
-}
-
-.Title {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: underline;
-    margin-bottom: 30px;
-    margin-top: 0px;
-    color: #525252;
+    max-width: 500px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .ExperienceItems {
@@ -24,6 +16,13 @@
 /*medium screens (Ex. tablets)*/
 @media (min-width: 768px) {
     .Experience {
-        padding-top: 45px;
+        padding: 45px;
+    }
+}
+
+/*large devices*/
+@media (min-width: 1024px) {
+    .Experience {
+        padding: 60px;
     }
 }

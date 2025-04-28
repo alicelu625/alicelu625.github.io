@@ -4,55 +4,31 @@
     background-image: linear-gradient(rgba(200, 116, 122, 0.1), white, rgba(200, 116, 122, 0.1));
     height: 100%;
     margin-top: 56px;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 30px;
 }
 
-.IntroQuote {
+h1 {
     font-size: 30px;
-    font-style: italic;
     font-family: 'Source Sans Pro', sans-serif;
     color: #525252;
     margin: 0;
-    padding-bottom: 10px;
-    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-.IntroSentences {
-    font-size: 19px;
+.IntroCopy {
+    font-size: 25px;
     font-family: 'Open Sans Condensed', sans-serif;
     color: #525252;
     margin: 0;
-    padding: 5px 0px;
+    padding-bottom: 30px;
 }
 
 .MyInfo {
     background-color: white;
     border-radius: 20px;
-    margin: 10px auto;
+    margin: auto;
     text-align: left;
-    max-width: 400px;
-}
-
-.MyInfoIntro {
-    font-size: 16px;
-    padding-left: 20px;
-    padding-top: 10px;
-    margin: 0;
-}
-
-.MyInfoLooking {
-    font-size: 16px;
-    color: #C8747A;
-    padding-left: 20px;
-    margin: 0;
-}
-
-.MyInfoEmail {
-    font-size: 13px;
-    padding-left: 20px;
-    padding-top: 0px;
-    margin: 0;
+    max-width: 250px;
 }
 
 .References {
@@ -76,20 +52,24 @@
     font-size: 9px;
 }
 
+.LearnMore {
+    padding-top: 30px;
+}
+
 .LearnMoreText {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    font-size: 16px;
+    font-size: 18px;
     color: #95585C;
     text-decoration: underline;
-    padding-top: 20px;
-    padding-bottom: 30px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    max-width: 400px;
-    margin-right: auto;
-    margin-left: auto;
+}
+
+.LearnMoreText:hover {
+    color: #C8747A;
+}
+
+.LearnMoreText:active {
+    color: #C8747A;
 }
 
 .RightArrowIcon {
@@ -98,34 +78,20 @@
 
 /*medium screens (Ex. tablets)*/
 @media (min-width: 768px) {
-    .IntroQuote {
+    .HomeSummary {
+        padding: 45px;
+    }
+
+    h1 {
         font-size: 35px;
-        padding: 45px 20px 10px 20px;
     }
     
-    .IntroSentences {
+    .IntroCopy {
         font-size: 24px;
-        padding: 5px 15px;
     }
 
     .MyInfo {
-        margin-top: 35px;
-        max-width: 500px;
-    }
-
-    .MyInfoIntro {
-        font-size: 18px;
-        padding-left: 25px;
-    }
-
-    .MyInfoLooking {
-        font-size: 18px;
-        padding-left: 25px;
-    }
-    
-    .MyInfoEmail {
-        font-size: 15px;
-        padding-left: 25px;
+        max-width: 300px;
     }
 
     .Logos {
@@ -141,27 +107,26 @@
         font-size: 10px;
     }
 
-    .LearnMoreText {
-        max-width: 600px;
-        padding-bottom: 45px;
+    .LearnMore {
+        padding-top: 45px;
     }
 }
 
-/*large devices (Ex. large tablets, small laptops)*/
-@media (min-width: 991px) {
-    .IntroQuote {
-        font-size: 38px;
+/*large devices*/
+@media (min-width: 1024px) {
+    .HomeSummary {
+        padding: 60px 45px;
+    }
+
+    h1 {
+        font-size: 40px;
     }
     
-    .IntroSentences {
-        font-size: 27px;
+    .IntroCopy {
+        font-size: 25px;
     }
 
     .MyInfo {
-        max-width: 500px;
-    }
-
-    .LearnMoreText {
-        max-width: 800px;
+        max-width: 300px;
     }
 }

@@ -1,6 +1,6 @@
 .ExperienceItem {
     border-radius: 10px;
-    background-color: white;
+    background-color: rgba(200, 116, 122, 0.1);
     max-height: 100%;
     margin: 30px 20px 0px 20px;
     font-family: 'Roboto', sans-serif;
@@ -21,7 +21,6 @@
     background-color: white;
     text-align: center;
     border-radius: 10px;
-    border: 0.1px  rgba(149, 88, 92, 0.5) solid;
     margin-right: 15px;
 }
 

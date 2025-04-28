@@ -29,7 +29,7 @@ class ExperienceItem extends Component {
             details = (
                 <div className={classes.DetailsDiv} onClick={this.onToggleShowDetails}>
                     <p className={classes.Location}><ImLocation/> {this.props.location}</p>
-                    <a className={classes.Link} href={this.props.link} target="_blank"><FaLink/> {this.props.link}</a>
+                    <a className={classes.Link} href={this.props.link} target="_blank" rel="noreferrer"><FaLink/> {this.props.link}</a>
                     <div className={classes.DetailsContent}>
                         {this.props.content}
                     </div>

@@ -1,32 +1,36 @@
 .FeaturedProjects {
     background-color: rgba(200, 116, 122, 0.1);
     height: 100%;
+    padding: 30px;
 }
 
-.Title {
+h2 {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: #525252;
-    text-decoration: underline;
     margin-bottom: 0px;
     margin-top: 0px;
+}
+
+.LearnMore {
     padding-top: 30px;
+    text-align: center;
 }
 
 .LearnMoreText {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    font-size: 16px;
+    font-size: 18px;
     color: #95585C;
     text-decoration: underline;
-    padding-top: 30px;
-    padding-bottom: 60px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    max-width: 400px;
-    margin-right: auto;
-    margin-left: auto;
+}
+
+.LearnMoreText:hover {
+    color: #C8747A;
+}
+
+.LearnMoreText:active {
+    color: #C8747A;
 }
 
 .RightArrowIcon {
@@ -96,8 +100,8 @@
 
 /*medium screens (Ex. tablets)*/
 @media (min-width: 768px) {
-    .Title {
-        padding-top: 45px;
+    .FeaturedProjects {
+        padding: 45px;
     }
 
     .ProjectItems {
@@ -112,14 +116,14 @@
         margin-right: auto;
     }
 
-    .LearnMoreText {
-        max-width: 600px;
+    .LearnMore {
+        padding-top: 45px;
     }
 }
 
-/*large devices (Ex. large tablets, small laptops)*/
-@media (min-width: 991px) {
-    .LearnMoreText {
-        max-width: 850px;
+/*large devices*/
+@media (min-width: 1024px) {
+    .FeaturedProjects {
+        padding: 60px;
     }
 }

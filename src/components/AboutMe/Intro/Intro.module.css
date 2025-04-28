@@ -1,7 +1,16 @@
 .Intro {
     height: 100%;
-    margin-top: 86px;
-    margin-bottom: 30px;
+    margin-top: 56px;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #525252;
+    margin: 0;
+    padding-bottom: 30px;
+    text-align: center;
 }
 
 .PicInfo {
@@ -11,9 +20,10 @@
 .Pic {
     display: block;
     width: 250px;
+    border-radius: 20px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .InfoSection {
@@ -21,6 +31,7 @@
     width: 80vw;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 30px;
 }
 
 .Info {
@@ -31,14 +42,21 @@
 .Anchors {
     display: flex;
     justify-content: space-evenly;
-    padding-top: 20px;
 }
 
 .AnchorLink {
-    color: #C8747A;
+    color: #95585C;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 16px;
+}
+
+.AnchorLink:hover {
+    color: #C8747A;
+}
+
+.AnchorLink:active {
+    color: #C8747A;
 }
 
 /*medium screens (Ex. tablets)*/
@@ -48,8 +66,11 @@
         max-width: 700px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 101px;
-        margin-bottom: 45px;
+        padding: 45px;
+    }
+
+    h1 {
+        font-size: 35px;
     }
 
     .PicInfo {
@@ -88,5 +109,16 @@
 
     .AnchorLink {
         font-size: 18px;
+    }
+}
+
+/*large devices*/
+@media (min-width: 1024px) {
+    .Intro {
+        padding: 60px;
+    }
+
+    h1 {
+        font-size: 40px;
     }
 }

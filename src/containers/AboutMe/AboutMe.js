@@ -15,8 +15,9 @@ class AboutMe extends Component {
             <Fragment>
                 <Intro/>
                 <Skills/>
-                <Education/>
                 <Experience/>
+                <Education/>
+                
             </Fragment>
         );
     }

@@ -9,7 +9,7 @@ export const items = [
         name: 'University of California, Santa Cruz',
         date: 'September 2016 - June 2020',
         course: 'Bachelor - Computer Science',
-        content: 'At UC Santa Cruz, I developed foundational skills in computer science such as data structures, algorithms, and computer systems design. Among the elective courses I took (mobile application development, web development, database systems, etc.), I discovered my passion for web development, which gave me the push to begin pursuing a career in front-end/full stack web development and developing more skills post-college.'
+        content: 'Awards: Honors in Engineering (top 15%). Relevant Coursework: Web Applications, Data Structures, Algorithms, Mobile Applications, Database Systems, Computer Systems Design, Data Mining, Business Information Systems.'
     },
     {
         logo: FCCLogo,
@@ -17,7 +17,7 @@ export const items = [
         name: 'freeCodeCamp',
         date: 'September 2020 - March 2021',
         course: 'Responsive Web Design',
-        content: 'College only gave me the basics in web development, so I took the initiative to find free online resources to expand my knowledge and skills. I discovered freeCodeCamp and began their Responsive Web Design Certification coursework, where I learned about HTML, CSS (including Flexbox and Grid), visual design, accessibility, and principles of responsive web design.'
+        content: 'Free online resources to expand my knowledge and skills in HTML, CSS (including Flexbox and Grid), visual design, accessibility, and principles of responsive web design.'
     },
     {
         logo: UdemyLogo,
@@ -25,6 +25,6 @@ export const items = [
         name: 'Udemy',
         date: 'September 2020 - November 2020',
         course: 'React - The Complete Guide',
-        content: 'I had discovered that React is a very popular JavaScript library that is listed as a qualification for my role. Since I’ve never used React nor know how to use it, I enrolled myself in Udemy’s React course, where I learned about React through follow along coding practices and hands-on projects. Along with the course, I’ve put my newly learned skills to practice by building personal projects, such as this website.'
+        content: 'A complete React course with engaging follow-along coding exercises and practical, hands-on projects.'
     }
 ];

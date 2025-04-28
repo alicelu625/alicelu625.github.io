@@ -1,26 +1,30 @@
 .Education {
     height: 100%;
-    padding: 30px 0px;
-    max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: rgba(200, 116, 122, 0.1);
+    padding: 30px;
 }
 
-.Title {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: underline;
-    color: #525252;
-    margin-top: 0px;
+.EducationItems {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
 }
 
 /*medium screens (Ex. tablets)*/
 @media (min-width: 768px) {
     .Education {
-        padding: 45px 0px;
+        padding: 45px;
     }
 
     .EducationItems {
         display: block;
+    }
+}
+
+/*large devices*/
+@media (min-width: 1024px) {
+    .Education {
+        padding: 60px;
     }
 }

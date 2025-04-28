@@ -1,12 +1,12 @@
-import React, {Component} from 'react';
-import {IoIosArrowForward} from 'react-icons/io';
-import {ImNewTab} from 'react-icons/im';
+import React, { Component } from 'react';
+import { IoIosArrowForward } from 'react-icons/io';
+import { ImNewTab } from 'react-icons/im';
 import { NavLink } from 'react-router-dom';
 
 import classes from './FeaturedProjects.module.css';
 import ProjectItem from '../../ProjectItems/ProjectItem/ProjectItem';
 import Modal from '../../UI/Modal/Modal';
-import {items} from '../../ProjectItems/Items';
+import { items } from '../../ProjectItems/Items';
 
 class FeaturedProjects extends Component {
     state = {
@@ -15,11 +15,11 @@ class FeaturedProjects extends Component {
     }
 
     closeModalHandler = () => {
-        this.setState({showModal: false});
+        this.setState({ showModal: false });
     }
 
     openModalHandler = (id) => {
-        this.setState({showModal: true, itemId: id});
+        this.setState({ showModal: true, itemId: id });
     }
 
     render() {
@@ -32,23 +32,23 @@ class FeaturedProjects extends Component {
                     <h3 className={classes.Name}>{item.name}</h3>
                     <p className={classes.Date}>{item.date}</p>
                     <div className={classes.ButtonDiv}>
-                        <a 
-                            href={item.demo} 
+                        <a
+                            href={item.demo}
                             className={classes.Button}
                             target="_blank"
                             rel="noreferrer"
-                        > 
+                        >
                             <span className={classes.ButtonText}>Demo</span>
-                            <ImNewTab className={classes.Icon}/>
+                            <ImNewTab className={classes.Icon} />
                         </a>
-                        <a 
+                        <a
                             href={item.srcCode}
                             className={classes.Button}
                             target="_blank"
                             rel="noreferrer"
                         >
                             <span className={classes.ButtonText}>Source Code</span>
-                            <ImNewTab className={classes.Icon}/>
+                            <ImNewTab className={classes.Icon} />
                         </a>
                     </div>
                     <p className={classes.Content}><strong>Description: </strong>{item.description}</p>
@@ -64,19 +64,7 @@ class FeaturedProjects extends Component {
                     <Modal show={this.state.showModal} modalClosed={this.closeModalHandler}>
                         {modalContent}
                     </Modal>
-                    <ProjectItem  
-                        cover={items[4].cover}
-                        altText={items[4].altText}
-                        name={items[4].name}
-                        date={items[4].date}
-                        demo={items[4].demo}
-                        srcCode={items[4].srcCode}
-                        description={items[4].description}
-                        tools={items[4].tools}
-                        id={4}
-                        projectClicked={this.openModalHandler}
-                    />
-                    <ProjectItem 
+                    <ProjectItem
                         cover={items[0].cover}
                         altText={items[0].altText}
                         name={items[0].name}
@@ -88,26 +76,40 @@ class FeaturedProjects extends Component {
                         id={0}
                         projectClicked={this.openModalHandler}
                     />
-                    <ProjectItem 
-                        cover={items[7].cover}
-                        altText={items[7].altText}
-                        name={items[7].name}
-                        date={items[7].date}
-                        demo={items[7].demo}
-                        srcCode={items[7].srcCode}
-                        description={items[7].description}
-                        tools={items[7].tools}
-                        id={7}
+                    <ProjectItem
+                        cover={items[1].cover}
+                        altText={items[1].altText}
+                        name={items[1].name}
+                        date={items[1].date}
+                        demo={items[1].demo}
+                        srcCode={items[1].srcCode}
+                        description={items[1].description}
+                        tools={items[1].tools}
+                        id={1}
+                        projectClicked={this.openModalHandler}
+                    />
+                    <ProjectItem
+                        cover={items[2].cover}
+                        altText={items[2].altText}
+                        name={items[2].name}
+                        date={items[2].date}
+                        demo={items[2].demo}
+                        srcCode={items[2].srcCode}
+                        description={items[2].description}
+                        tools={items[2].tools}
+                        id={2}
                         projectClicked={this.openModalHandler}
                     />
                 </div>
-                <NavLink 
-                    className={classes.LearnMoreText}
-                    exact to="/projects"
-                >
-                    View All Projects
-                    <IoIosArrowForward className={classes.RightArrowIcon}/>
-                </NavLink>
+                <div className={classes.LearnMore}>
+                    <NavLink
+                        className={classes.LearnMoreText}
+                        exact to="/projects"
+                    >
+                        View All Projects
+                        <IoIosArrowForward className={classes.RightArrowIcon} />
+                    </NavLink>
+                </div>
             </div>
         );
     }

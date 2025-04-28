@@ -3,16 +3,7 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 400px;
-}
-
-.Title {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    color: #525252;
-    text-decoration: underline;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    padding-top: 30px;
+    padding: 30px;
 }
 
 .LogosRow1 {
@@ -36,19 +27,25 @@
     padding-top: 30px;
 }
 
+.LearnMore {
+    padding-top: 30px;
+    text-align: center;
+}
+
 .LearnMoreText {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    font-size: 16px;
+    font-size: 18px;
     color: #95585C;
     text-decoration: underline;
-    padding: 30px 0px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    max-width: 400px;
-    margin-right: auto;
-    margin-left: auto;
+}
+
+.LearnMoreText:hover {
+    color: #C8747A;
+}
+
+.LearnMoreText:active {
+    color: #C8747A;
 }
 
 .RightArrowIcon {
@@ -59,10 +56,7 @@
 @media (min-width: 768px) {
     .FeaturedSkills {
         max-width: 600px;
-    }
-
-    .Title {
-        padding-top: 45px;
+        padding: 45px;
     }
 
     .Logo {
@@ -71,15 +65,14 @@
         padding-right: 50px;
     }
 
-    .LearnMoreText {
-        max-width: 600px;
-        padding-bottom: 45px;
+    .LearnMore {
+        padding-top: 45px;
     }
 }
 
-/*large devices (Ex. large tablets, small laptops)*/
-@media (min-width: 991px) {
-    .LearnMoreText {
-        max-width: 850px;
+/*large devices*/
+@media (min-width: 1024px) {
+    .FeaturedSkills {
+        padding: 60px;
     }
 }
